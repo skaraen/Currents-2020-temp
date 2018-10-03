@@ -1,0 +1,79 @@
+
+
+body{
+	margin: 0;
+	padding: 0;
+	overflow-y:hidden;
+}
+/* unvisited link */
+a:link {
+	margin-top: 10%;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+#header{
+	height: 100vh;
+	width: auto;
+	background-color: #34495e;
+}
+
+#about{
+	height: 100vh;
+	width: auto;
+}
+
+#about-content{
+	margin-top: 15%;
+}
+
+#schedule{
+	height: 100vh;
+	width: auto;
+}
+
+#schedule-content{
+	margin-top: 15%;
+}
+
+#logo{
+	margin-top: 10%;
+	text-align: center;
+}
+
+#nav-block {
+	position: fixed;
+	color: #ffffff;
+	background-color: #95a5a6;
+	font-size: 18px;
+	font-family: 'Rajdhani', sans-serif;
+}
+
+#nav-block > div{
+	text-align: center;
+	padding: 1%;
+}
+
+#nav-block > div:hover{
+	background-color: #34495e;
+	padding: 1%;
+}
+
