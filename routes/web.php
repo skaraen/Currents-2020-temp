@@ -72,9 +72,16 @@ Route::get('/magazines/{file}', function($file_name) {
 	return response()->download($file_path);
 });
 
-
 Route::get('/tronicals', function() {
 	return view('18.tronicals');
+});
+
+Route::get('/internship/apply', function() {
+	return view('18.internship');
+});
+
+Route::get('/internship/projects', function() {
+	return view('18.projects');
 });
 
 
