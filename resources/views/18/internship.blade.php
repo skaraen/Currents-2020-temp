@@ -1,3 +1,6 @@
+<script>
+  var API_BASE_URL = "{{ env('APP_BASE_URL') }}";
+</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="{{asset('js/script.js')}}"></script>
 <style>
@@ -155,10 +158,16 @@ form input:focus, form textarea:focus {
       <input placeholder="Phone" id="phone" type="tel" tabindex="3" required>
     </fieldset>
     <fieldset>
-      <input placeholder="Project ID" id="project" type="text" tabindex="3" required>
+      <input placeholder="First preference project ID" id="project_one" type="text" tabindex="3" required>
     </fieldset>
     <fieldset>
-      <textarea placeholder="Statement of Purpose" id="sop" tabindex="5" required></textarea>
+      <input placeholder="Second preference project ID" id="project_two" type="text" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Third preference project ID" id="project_three" type="text" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Statement of Purpose (Max 500 Words)" id="sop" tabindex="5" required></textarea>
     </fieldset>
     <fieldset>
       <button name="submit" type="submit" onsubmit="register(); return false;" id="contact-submit" data-submit="...Sending">Submit</button>

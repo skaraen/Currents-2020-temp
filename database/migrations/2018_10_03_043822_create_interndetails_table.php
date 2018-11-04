@@ -20,7 +20,9 @@ class CreateInterndetailsTable extends Migration
             $table->string('email_id');
             $table->string('phone');
             $table->string('year');
-            $table->string('project');
+            $table->string('project_one');
+            $table->string('project_two');
+            $table->string('project_three');
             $table->text('sop');
             $table->timestamps();
         });

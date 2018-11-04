@@ -48,7 +48,9 @@ Route::post('/intern/apply', function(Request $request) {
             'email_id' => 'required|email',
             'phone' => 'required',
             'year' => 'required',
-            'project' => 'required',
+            'project_one' => 'required',
+            'project_two' => 'required',
+            'project_three' => 'required',
             'sop' => 'required'
         ]);
 
@@ -63,7 +65,9 @@ Route::post('/intern/apply', function(Request $request) {
         $email_id = $request->input('email_id');
         $phone    = $request->input('phone');
         $year     = $request->input('year');
-        $project  = $request->input('project');
+        $project_one  = $request->input('project_one');
+        $project_two  = $request->input('project_two');
+        $project_three  = $request->input('project_three');
         $sop      = $request->input('sop');
 
         $existing = InternDetails::where('roll', $roll)->first();
@@ -80,7 +84,9 @@ Route::post('/intern/apply', function(Request $request) {
         $intern_registration->email_id = $email_id;
         $intern_registration->phone = $phone;
         $intern_registration->year = $year;
-        $intern_registration->project = $project;
+        $intern_registration->project_one = $project_one;
+        $intern_registration->project_two = $project_two;
+        $intern_registration->project_three = $project_three;
         $intern_registration->sop = $sop;
 
         $intern_registration->save();

@@ -1,4 +1,4 @@
-API_BASE_URL="http://localhost:8000"
+
 
 function login() {
 	var route = '/api/auth';
@@ -41,7 +41,9 @@ function register() {
 			'roll': $('#rollno').val(),
 			'email_id': $('#email').val(),
 			'phone': $('#phone').val(),
-			'project': $('#project').val(),
+			'project_one': $('#project_one').val(),
+			'project_two': $('#project_two').val(),
+			'project_three': $('#project_three').val(),
 			'year' : $('#year').val(),
 			'sop': $('#sop').val()
 	};
@@ -55,10 +57,13 @@ function register() {
 		}
 	});
 	request.done(function(data){
+		data = JSON.parse(data);
 		if(data.status_code == 200) {
 			alert('Successfully registered');
-		} else if(data.status_code==401) {
-			alert('Error. Please try later or contact WebOps');
+		} else if(data.status_code==409) {
+			alert('You have already registered. Contact WebOps if you wish to change.');
+		} else {
+			alert('Unknown Error. Contact  WebOps');
 		}
 	});
 }

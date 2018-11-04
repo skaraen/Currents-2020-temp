@@ -9,7 +9,7 @@ body {
   color: #3b3b3b;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  background: #0CF;
+  background: rgba(35, 206, 192,0.7);
 }
 
 
@@ -37,13 +37,13 @@ body {
 .row.header {
   font-weight: 900;
   color: #ffffff;
-  background: #ea6153;
+  background: rgba(234, 97, 83, 0.9);
 }
 .row.green {
-  background: #27ae60;
+  background: rgba(39, 174, 96, 0.9);
 }
 .row.blue {
-  background: #2980b9;
+  background: rgba(41, 128, 185, 0.9);
 }
 
 
@@ -77,62 +77,170 @@ Winter Internship 2018      </div>
       <div class="cell">
         Project Title
       </div>
-      <div class="cell"></div>
-      <div class="cell"></div>
-      <div class="cell"></div>
-      <div class="cell"></div>
-      <div class="cell"></div>
-      <div class="cell"></div>
-      <div class="cell"></div>
-      <div class="cell"></div>
-      <div class="cell"></div>
-      <div class="cell"></div>
-
+    </div>
+  </div>
+  <div class="table">
+    <div class="row header green">
       <div class="cell">
-        Professor
+        <span style="font-size: 1.25em;">1</span>
+      </div>
+      <div class="cell">
+        <span style="font-weight: bold; font-size: 1.25em;">Design of Smart pre-paid Energy meter (II Year)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
+      </div>
+    </div>
+  </div>
+    <div class="table">
+    <div class="row header green">
+      <div class="cell">
+        <span style="font-size: 1.25em;">2</span>
+      </div>
+      <div class="cell">
+        <span style="font-weight: bold; font-size: 1.25em;">Controller Design for Wind-Driven DC Generators (II Year)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
+      </div>
+    </div>
+  </div> 
+    <div class="table">
+    <div class="row header green">
+      <div class="cell">
+        <span style="font-size: 1.25em;">3</span>
+      </div>
+      <div class="cell">
+        <span style="font-weight: bold; font-size: 1.25em;">Design of Solar Battery Charger (II Year)&&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
+      </div>
+    </div>
+  </div> 
+    <div class="table">
+    <div class="row header green">
+      <div class="cell">
+        <span style="font-size: 1.25em;">4</span>
+      </div>
+      <div class="cell">
+        <span style="font-weight: bold; font-size: 1.25em;">Particle Swarm Optimization of Electric Vehicles (II and III Year)</span><br>
+      </div>
+    </div>
+  </div> 
+    <div class="table">
+    <div class="row header green">
+      <div class="cell">
+        <span style="font-size: 1.25em;">5</span>
+      </div>
+      <div class="cell">
+        <span style="font-weight: bold; font-size: 1.25em;">Particle Swarm Optimization of Two Quadrant Drive System (II and III Year)</span><br>
+      </div>
+    </div>
+  </div> 
+    <div class="table">
+    <div class="row header green">
+      <div class="cell">
+        <span style="font-size: 1.25em;">6</span>
+      </div>
+      <div class="cell">
+        <span style="font-weight: bold; font-size: 1.25em;">Localization based on Range Test, Environmental monitoring and IoT (II and III Year)</span><br>
+      </div>
+    </div>
+  </div>
+    <div class="table">
+    <div class="row header green">
+      <div class="cell">
+        <span style="font-size: 1.25em;">7</span>
+      </div>
+      <div class="cell">
+        <span style="font-weight: bold; font-size: 1.25em;">Development of  half bridge mosfet gate driver for c2000 DSP board (II and III Year)</span><br>
+      </div>
+    </div>
+  </div>
+    <div class="table">
+    <div class="row header green">
+      <div class="cell">
+        <span style="font-size: 1.25em;">8</span>
+      </div>
+      <div class="cell">
+        <span style="font-weight: bold; font-size: 1.25em;">Energy Blockchain (II and III Year)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
+      </div>
+    </div>
+  </div>
+    <div class="table">
+    <div class="row header green">
+      <div class="cell">
+        <span style="font-size: 1.25em;">9</span>
+      </div>
+      <div class="cell">
+        <span style="font-weight: bold; font-size: 1.25em;">Electric power Quality Analyser Design using Arduino (II and III Year)</span><br>
       </div>
     </div>
   </div>
   <div class="table">
-
     <div class="row header green">
       <div class="cell">
-        1
+        <span style="font-size: 1.25em;">10</span>
       </div>
       <div class="cell">
-        <span style="font-weight: bold;">Determination of some shit using an existing algorithm that doesn't work</span><br>
-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mattis fringilla ligula a malesuada. Sed tempor viverra lectus. Integer finibus arcu eu tortor efficitur molestie. Vivamus nec semper sem. Integer sit amet orci arcu. Fusce vehicula luctus ipsum. Aliquam non facilisis ligula.
-      </div>
-      <div class="cell">
-        Dr S. Moorthi
+        <span style="font-weight: bold; font-size: 1.25em;">Design of Single Phase Energy Meter using Arduino (II and III Year)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
       </div>
     </div>
   </div>
   <div class="table">
-
     <div class="row header green">
       <div class="cell">
-        2
+        <span style="font-size: 1.25em;">11</span>
       </div>
       <div class="cell">
-        <span style="font-weight: bold;">Determination of some shit using an existing algorithm that doesn't work</span><br>
-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mattis fringilla ligula a malesuada. Sed tempor viverra lectus. Integer finibus arcu eu tortor efficitur molestie. Vivamus nec semper sem. Integer sit amet orci arcu. Fusce vehicula luctus ipsum. Aliquam non facilisis ligula.
-      </div>
-      <div class="cell">
-        Dr S. Ilango
+        <span style="font-weight: bold; font-size: 1.25em;">Free Energy (II and III Year)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
       </div>
     </div>
   </div>
-
-
+  <div class="table">
+    <div class="row header green">
+      <div class="cell">
+        <span style="font-size: 1.25em;">12</span>
+      </div>
+      <div class="cell">
+        <span style="font-weight: bold; font-size: 1.25em;">Optimal placement of wind turbines in wind mills (III Year)</span><br>
+      </div>
+    </div>
+  </div>
+  <div class="table">
+    <div class="row header green">
+      <div class="cell">
+        <span style="font-size: 1.25em;">13</span>
+      </div>
+      <div class="cell">
+        <span style="font-weight: bold; font-size: 1.25em;">Design of micro-inverter and associated controller for Solar-PV system (III Year)</span><br>
+      </div>
+    </div>
+  </div>
+  <div class="table">
+    <div class="row header green">
+      <div class="cell">
+        <span style="font-size: 1.25em;">14</span>
+      </div>
+      <div class="cell">
+        <span style="font-weight: bold; font-size: 1.25em;">Reactive power Control techniques for wind-driven induction generators (III Year)</span><br>
+      </div>
+    </div>
+  </div>
+  <div class="table">
+    <div class="row header green">
+      <div class="cell">
+        <span style="font-size: 1.25em;">15</span>
+      </div>
+      <div class="cell">
+        <span style="font-weight: bold; font-size: 1.25em;">Development of cost effective phasor measurement units (III Year)</span><br>
+      </div>
+    </div>
+  </div>
+  <div class="table">
+    <div class="row header green">
+      <div class="cell">
+        <span style="font-size: 1.25em;">16</span>
+      </div>
+      <div class="cell">
+        <span style="font-weight: bold; font-size: 1.25em;">Power Electronic Drives&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
+      </div>
+   </div>
+  </div>
+  </div>
  </div>
-  
-  
-  
-  
-    
   </div>
   
 </div>
