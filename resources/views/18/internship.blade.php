@@ -1,3 +1,4 @@
+<title>Apply for Winter Intern</title>
 <script>
   var API_BASE_URL = "{{ env('APP_BASE_URL') }}";
 </script>
@@ -35,7 +36,7 @@ body {
   position:relative;
 }
 
-form input[type="text"], form input[type="email"], form input[type="tel"], form input[type="url"], form textarea, form button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+form input[type="text"], form input[type="email"], form input[type="tel"], form input[type="url"], form input[type="number"], form textarea, form button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
 
 form {
   background:#F9F9F9;
@@ -64,7 +65,7 @@ fieldset {
   width: 100%;
 }
 
-form input[type="text"], form input[type="password"], form input[type="email"], form input[type="tel"], form input[type="url"], form textarea {
+form input[type="text"], form input[type="password"], form input[type="email"], form input[type="tel"], form input[type="number"], form input[type="url"], form textarea {
   width:100%;
   border:1px solid #CCC;
   background:#FFF;
@@ -72,7 +73,7 @@ form input[type="text"], form input[type="password"], form input[type="email"], 
   padding:10px;
 }
 
-form input[type="text"]:hover, form input[type="email"]:hover, form input[type="tel"]:hover, form input[type="url"]:hover, form textarea:hover {
+form input[type="text"]:hover, form input[type="email"]:hover, form input[type="tel"], form input[type="number"]:hover, form input[type="url"]:hover, form textarea:hover {
   -webkit-transition:border-color 0.3s ease-in-out;
   -moz-transition:border-color 0.3s ease-in-out;
   transition:border-color 0.3s ease-in-out;
@@ -158,13 +159,13 @@ form input:focus, form textarea:focus {
       <input placeholder="Phone" id="phone" type="tel" tabindex="3" required>
     </fieldset>
     <fieldset>
-      <input placeholder="First preference project ID" id="project_one" type="text" tabindex="3" required>
+      <input placeholder="First preference project ID" id="project_one" type="number" tabindex="3" min="1" max="16" required>
     </fieldset>
     <fieldset>
-      <input placeholder="Second preference project ID" id="project_two" type="text" tabindex="3" required>
+      <input placeholder="Second preference project ID" id="project_two" type="number" tabindex="3" min="1" max="16" required>
     </fieldset>
     <fieldset>
-      <input placeholder="Third preference project ID" id="project_three" type="text" tabindex="3" required>
+      <input placeholder="Third preference project ID" id="project_three" type="number" tabindex="3" min="1" max="16" required>
     </fieldset>
     <fieldset>
       <textarea placeholder="Statement of Purpose (Max 500 Words)" id="sop" tabindex="5" required></textarea>

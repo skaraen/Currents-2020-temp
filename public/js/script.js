@@ -36,6 +36,10 @@ function register() {
 	var route = '/api/intern/apply';
 	var method = 'POST';
 
+	if($('#project_one').val() == $('#project_two').val() || $('#project_two').val() == $('#project_three').val() || $('#project_three').val() == $('#project_one').val()) {
+		alert('Please select different project for the preferences.')
+		return;
+	}
 	var data_obj = {
 			'name': $('#name').val(),
 			'roll': $('#rollno').val(),

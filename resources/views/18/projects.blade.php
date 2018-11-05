@@ -1,3 +1,4 @@
+<title>Winter Intern Projects</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="{{asset('js/script.js')}}"></script>
 <style>
@@ -79,20 +80,10 @@ Winter Internship 2018      </div>
       </div>
     </div>
   </div>
-  <div class="table">
-    <div class="row header green">
-      <div class="cell">
-        <span style="font-size: 1.25em;">1</span>
-      </div>
-      <div class="cell">
-        <span style="font-weight: bold; font-size: 1.25em;">Design of Smart pre-paid Energy meter (II Year)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
-      </div>
-    </div>
-  </div>
     <div class="table">
     <div class="row header green">
       <div class="cell">
-        <span style="font-size: 1.25em;">2</span>
+        <span style="font-size: 1.25em;">1</span>
       </div>
       <div class="cell">
         <span style="font-weight: bold; font-size: 1.25em;">Controller Design for Wind-Driven DC Generators (II Year)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
@@ -102,7 +93,7 @@ Winter Internship 2018      </div>
     <div class="table">
     <div class="row header green">
       <div class="cell">
-        <span style="font-size: 1.25em;">3</span>
+        <span style="font-size: 1.25em;">2</span>
       </div>
       <div class="cell">
         <span style="font-weight: bold; font-size: 1.25em;">Design of Solar Battery Charger (II Year)&&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
@@ -112,7 +103,7 @@ Winter Internship 2018      </div>
     <div class="table">
     <div class="row header green">
       <div class="cell">
-        <span style="font-size: 1.25em;">4</span>
+        <span style="font-size: 1.25em;">3</span>
       </div>
       <div class="cell">
         <span style="font-weight: bold; font-size: 1.25em;">Particle Swarm Optimization of Electric Vehicles (II and III Year)</span><br>
@@ -122,7 +113,7 @@ Winter Internship 2018      </div>
     <div class="table">
     <div class="row header green">
       <div class="cell">
-        <span style="font-size: 1.25em;">5</span>
+        <span style="font-size: 1.25em;">4</span>
       </div>
       <div class="cell">
         <span style="font-weight: bold; font-size: 1.25em;">Particle Swarm Optimization of Two Quadrant Drive System (II and III Year)</span><br>
@@ -132,7 +123,7 @@ Winter Internship 2018      </div>
     <div class="table">
     <div class="row header green">
       <div class="cell">
-        <span style="font-size: 1.25em;">6</span>
+        <span style="font-size: 1.25em;">5</span>
       </div>
       <div class="cell">
         <span style="font-weight: bold; font-size: 1.25em;">Localization based on Range Test, Environmental monitoring and IoT (II and III Year)</span><br>
@@ -142,7 +133,7 @@ Winter Internship 2018      </div>
     <div class="table">
     <div class="row header green">
       <div class="cell">
-        <span style="font-size: 1.25em;">7</span>
+        <span style="font-size: 1.25em;">6</span>
       </div>
       <div class="cell">
         <span style="font-weight: bold; font-size: 1.25em;">Development of  half bridge mosfet gate driver for c2000 DSP board (II and III Year)</span><br>
@@ -152,7 +143,7 @@ Winter Internship 2018      </div>
     <div class="table">
     <div class="row header green">
       <div class="cell">
-        <span style="font-size: 1.25em;">8</span>
+        <span style="font-size: 1.25em;">7</span>
       </div>
       <div class="cell">
         <span style="font-weight: bold; font-size: 1.25em;">Energy Blockchain (II and III Year)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
@@ -162,32 +153,45 @@ Winter Internship 2018      </div>
     <div class="table">
     <div class="row header green">
       <div class="cell">
-        <span style="font-size: 1.25em;">9</span>
+        <span style="font-size: 1.25em;">8</span>
       </div>
       <div class="cell">
         <span style="font-weight: bold; font-size: 1.25em;">Electric power Quality Analyser Design using Arduino (II and III Year)</span><br>
       </div>
     </div>
   </div>
+
+    <div class="table">
+    <div class="row header green">
+      <div class="cell">
+        <span style="font-size: 1.25em;">9</span>
+      </div>
+      <div class="cell">
+        <span style="font-weight: bold; font-size: 1.25em;">Free Energy (II and III Year)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
+      </div>
+    </div>
+  </div>
+
   <div class="table">
     <div class="row header green">
       <div class="cell">
         <span style="font-size: 1.25em;">10</span>
       </div>
       <div class="cell">
-        <span style="font-weight: bold; font-size: 1.25em;">Design of Single Phase Energy Meter using Arduino (II and III Year)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
+        <span style="font-weight: bold; font-size: 1.25em;">Design of Single Phase Energy Meter using Arduino (II and III Year)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
       </div>
     </div>
   </div>
+
   <div class="table">
     <div class="row header green">
       <div class="cell">
         <span style="font-size: 1.25em;">11</span>
       </div>
       <div class="cell">
-        <span style="font-weight: bold; font-size: 1.25em;">Free Energy (II and III Year)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
+        <span style="font-weight: bold; font-size: 1.25em;">Power Electronic Drives (II & III Year)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
       </div>
-    </div>
+   </div>
   </div>
   <div class="table">
     <div class="row header green">
@@ -195,7 +199,7 @@ Winter Internship 2018      </div>
         <span style="font-size: 1.25em;">12</span>
       </div>
       <div class="cell">
-        <span style="font-weight: bold; font-size: 1.25em;">Optimal placement of wind turbines in wind mills (III Year)</span><br>
+        <span style="font-weight: bold; font-size: 1.25em;">Optimal placement of wind turbines in wind mills (III Year)&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
       </div>
     </div>
   </div>
@@ -235,9 +239,9 @@ Winter Internship 2018      </div>
         <span style="font-size: 1.25em;">16</span>
       </div>
       <div class="cell">
-        <span style="font-weight: bold; font-size: 1.25em;">Power Electronic Drives&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
+        <span style="font-weight: bold; font-size: 1.25em;">Design of Smart Energy meter (III Year)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
       </div>
-   </div>
+    </div>
   </div>
   </div>
  </div>
