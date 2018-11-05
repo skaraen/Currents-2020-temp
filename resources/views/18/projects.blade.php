@@ -77,7 +77,7 @@ table {
     </tr>
     <tr>
       <td class="pid">6</td>
-      <td><span class="ptitle">Development of half bridge MOSFET gate driver for 2000 DSP board (II and III Year)</span></td>
+      <td><span class="ptitle">Development of half bridge MOSFET gate driver for C2000 DSP board (II and III Year)</span></td>
     </tr>
     <tr>
       <td class="pid">7</td>
@@ -170,26 +170,70 @@ table {
     </tr>
     <tr>
       <td class="pid">19</td>
-      <td><span class="ptitle">Optimal placement of wind turbines in wind mills (III Year)</span> </td>
+      <td><span class="ptitle">Development of IoT based Meter Data Management System (II and III Year)</span></td>
     </tr>
     <tr>
       <td class="pid">20</td>
-      <td><span class="ptitle">Design of micro-inverter and associated controller for Solar-PV system (III Year)</span> </td>
+      <td><span class="ptitle">IoT based monitoring system for distributed generators (II and III Year)</span></td>
     </tr>
     <tr>
       <td class="pid">21</td>
-      <td><span class="ptitle">Reactive power Control techniques for wind-driven induction generators (III Year)</span> </td>
+      <td><span class="ptitle"> Inertia mimicking in electrical grid with large scale renewable integration (II and III Year)</span></td>
     </tr>
     <tr>
       <td class="pid">22</td>
-      <td><span class="ptitle">Development of cost effective phasor measurement units (III Year)</span></td>
+      <td><span class="ptitle">Simulation of VSC based HVDC transmission system (II and III Year)</span></td>
     </tr>
     <tr>
       <td class="pid">23</td>
-      <td><span class="ptitle">Design of Smart Energy meter (III Year)</span></td>
+      <td><span class="ptitle">Game Theory application for locality electricity market programming (II and III Year)</span></td>
     </tr>
     <tr>
       <td class="pid">24</td>
+      <td><span class="ptitle">Short term weather forecasting using Artificial Intelligence or Machine Learning tools. (II and III Year)</span></td>
+    </tr>
+    <tr>
+      <td class="pid">25</td>
+      <td><span class="ptitle">Digital Relaying. (II and III Year)</span></td>
+    </tr>
+    <tr>
+      <td class="pid">26</td>
+      <td><span class="ptitle">Wide Area Protection (WAPs) (II and III Year)</span></td>
+    </tr>
+    <tr>
+      <td class="pid">27</td>
+      <td><span class="ptitle">Phasor Measurement Units (PMUs) (II and III Year)</span></td>
+    </tr>
+    <tr>
+      <td class="pid">28</td>
+      <td><span class="ptitle">Smart Grid (II and III Year)</span></td>
+    </tr>
+    <tr>
+      <td class="pid">29</td>
+      <td><span class="ptitle">Power Quality Analysis (II and III Year)</span></td>
+    </tr>
+    <tr>
+      <td class="pid">30</td>
+      <td><span class="ptitle">Optimal placement of wind turbines in wind mills (III Year)</span> </td>
+    </tr>
+    <tr>
+      <td class="pid">31</td>
+      <td><span class="ptitle">Design of micro-inverter and associated controller for Solar-PV system (III Year)</span> </td>
+    </tr>
+    <tr>
+      <td class="pid">32</td>
+      <td><span class="ptitle">Reactive power Control techniques for wind-driven induction generators (III Year)</span> </td>
+    </tr>
+    <tr>
+      <td class="pid">33</td>
+      <td><span class="ptitle">Development of cost effective phasor measurement units (III Year)</span></td>
+    </tr>
+    <tr>
+      <td class="pid">34</td>
+      <td><span class="ptitle">Design of Smart Energy meter (III Year)</span></td>
+    </tr>
+    <tr>
+      <td class="pid">35</td>
       <td><span class="ptitle">Development of charging infrastructure for electrical vehicle at parking places (plug in or wireless) (III Year)</span></td>
     </tr>
   </table>
