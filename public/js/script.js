@@ -35,7 +35,11 @@ function login() {
 function register() {
 	var route = '/api/intern/apply';
 	var method = 'POST';
-
+	
+	if($('#phone').val().length < 10) {
+		alert('Please enter a proper phone number.');
+		return;
+	}
 	if($('#project_one').val() == $('#project_two').val() || $('#project_two').val() == $('#project_three').val() || $('#project_three').val() == $('#project_one').val()) {
 		alert('Please select different project for the preferences.')
 		return;
