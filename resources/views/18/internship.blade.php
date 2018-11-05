@@ -159,16 +159,25 @@ form input:focus, form textarea:focus {
       <input placeholder="Phone" id="phone" type="tel" tabindex="3" required>
     </fieldset>
     <fieldset>
+      <input placeholder="CGPA" id="cgpa" type="text" tabindex="3" required>
+    </fieldset>
+    <fieldset>
       <input placeholder="First preference project ID" id="project_one" type="number" tabindex="3" min="1" max="24" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Statement of Purpose for First Preference (Max 500 Words)" id="sop_one" tabindex="5" required></textarea>
     </fieldset>
     <fieldset>
       <input placeholder="Second preference project ID" id="project_two" type="number" tabindex="3" min="1" max="24" required>
     </fieldset>
     <fieldset>
+      <textarea placeholder="Statement of Purpose for Second Preference (Max 500 Words)" id="sop_two" tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
       <input placeholder="Third preference project ID" id="project_three" type="number" tabindex="3" min="1" max="24" required>
     </fieldset>
     <fieldset>
-      <textarea placeholder="Statement of Purpose (Max 500 Words)" id="sop" tabindex="5" required></textarea>
+      <textarea placeholder="Statement of Purpose for Third Preference (Max 500 Words)" id="sop_three" tabindex="5" required></textarea>
     </fieldset>
     <fieldset>
       <button name="submit" type="submit" onsubmit="register(); return false;" id="contact-submit" data-submit="...Sending">Submit</button>

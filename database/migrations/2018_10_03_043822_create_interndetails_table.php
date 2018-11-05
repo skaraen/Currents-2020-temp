@@ -21,9 +21,12 @@ class CreateInterndetailsTable extends Migration
             $table->string('phone');
             $table->string('year');
             $table->string('project_one');
+            $table->text('sop_one');
             $table->string('project_two');
+            $table->text('sop_two');
             $table->string('project_three');
-            $table->text('sop');
+            $table->text('sop_three');
+            $table->string('cgpa');
             $table->timestamps();
         });
     }

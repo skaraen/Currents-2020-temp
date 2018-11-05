@@ -51,7 +51,12 @@ Route::post('/intern/apply', function(Request $request) {
             'project_one' => 'required',
             'project_two' => 'required',
             'project_three' => 'required',
-            'sop' => 'required'
+            'sop_one' => 'required',
+            'sop_two' => 'required',
+            'sop_three' => 'required',
+            'cgpa' => 'required'
+
+
         ]);
 
         if ($validator->fails()) {
@@ -66,10 +71,12 @@ Route::post('/intern/apply', function(Request $request) {
         $phone    = $request->input('phone');
         $year     = $request->input('year');
         $project_one  = $request->input('project_one');
+        $sop_one = $request->input('sop_one');
         $project_two  = $request->input('project_two');
+        $sop_two = $request->input('sop_two');
         $project_three  = $request->input('project_three');
-        $sop      = $request->input('sop');
-
+        $sop_three = $request->input('sop_three');
+        $cgpa = $request->input('cgpa');
         $existing = InternDetails::where('roll', $roll)->first();
 
         if($existing) {
@@ -87,7 +94,10 @@ Route::post('/intern/apply', function(Request $request) {
         $intern_registration->project_one = $project_one;
         $intern_registration->project_two = $project_two;
         $intern_registration->project_three = $project_three;
-        $intern_registration->sop = $sop;
+        $intern_registration->cgpa = $cgpa;
+        $intern_registration->sop_one = $sop_one;
+        $intern_registration->sop_two = $sop_two;
+        $intern_registration->sop_three = $sop_three;
 
         $intern_registration->save();
 
