@@ -159,13 +159,13 @@ form input:focus, form textarea:focus {
       <input placeholder="Phone" id="phone" type="tel" tabindex="3" required>
     </fieldset>
     <fieldset>
-      <input placeholder="First preference project ID" id="project_one" type="number" tabindex="3" min="1" max="16" required>
+      <input placeholder="First preference project ID" id="project_one" type="number" tabindex="3" min="1" max="24" required>
     </fieldset>
     <fieldset>
-      <input placeholder="Second preference project ID" id="project_two" type="number" tabindex="3" min="1" max="16" required>
+      <input placeholder="Second preference project ID" id="project_two" type="number" tabindex="3" min="1" max="24" required>
     </fieldset>
     <fieldset>
-      <input placeholder="Third preference project ID" id="project_three" type="number" tabindex="3" min="1" max="16" required>
+      <input placeholder="Third preference project ID" id="project_three" type="number" tabindex="3" min="1" max="24" required>
     </fieldset>
     <fieldset>
       <textarea placeholder="Statement of Purpose (Max 500 Words)" id="sop" tabindex="5" required></textarea>
