@@ -4,7 +4,8 @@
 use Illuminate\Http\Request;
 use Sangria\JSONResponse;
 use Sangria\IMAPAuth;
-use App\InternDetails;
+use App\CcaDetails;
+
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -40,7 +41,77 @@ Route::post('/auth', function(Request $request) {
     return JSONResponse::response($status_code, $message);
 });
 
-Route::post('/intern/apply', function(Request $request) {
+Route::post('/cca/apply', function(Request $request) {
+    
+    $validator = Validator::make($request->all(), [
+            'name' => 'required',
+            'email' => 'required|email',
+            'dob' => 'required',
+            'college' => 'required',
+            'branch' => 'required',
+            'year' => 'required',
+            'por' => 'required',
+            'mobile' => 'required|integer',
+            'perma_phone' => 'required|integer',
+            'curr_addr' => 'required',
+            'perm_addr' => 'required'
+        ]);
+
+        if ($validator->fails()) {
+            $status_code = 400;
+            $response    = $validator->failed();
+            return JSONResponse::response($status_code, $response);
+        }
+        
+        $name     = $request->input('name');
+        $email     = $request->input('email');
+        $dob = $request->input('dob');
+        $college    = $request->input('college');
+        $branch     = $request->input('branch');
+        $year  = $request->input('year');
+        $por = $request->input('por');
+        $mobile = $request->input('mobile');
+        $perma_phone  = $request->input('perma_phone');
+        $curr_addr = $request->input('curr_addr');
+        $perm_addr  = $request->input('perm_addr');
+        $existing = CcaDetails::where('email', $email)->first();
+
+        if($existing) {
+            $status_code = 409;
+            $response = "Already registered";
+            return JSONResponse::response($status_code, $response);
+        }
+
+
+        $last_id = DB::getPdo()->lastInsertId();
+
+        $ref_id = "CCA19-".str_pad($last_id + 1, 4, "0", STR_PAD_LEFT);
+
+
+        $cca_registration = new CcaDetails();
+        $cca_registration->name = $name;
+        $cca_registration->email = $email;
+        $cca_registration->dob = $dob;
+        $cca_registration->college = $college;
+        $cca_registration->branch = $branch;
+        $cca_registration->year = $year;
+        $cca_registration->por = $por;
+        $cca_registration->mobile = $mobile;
+        $cca_registration->perma_phone = $perma_phone;
+        $cca_registration->curr_addr = $curr_addr;
+        $cca_registration->perm_addr = $perm_addr;
+        $cca_registration->ref_id = $ref_id;
+        $cca_registration->save();
+
+        $status_code = 200;
+        $response = $ref_id;
+
+
+        return JSONResponse::response($status_code, $response);
+});
+
+
+/*Route::post('/intern/apply', function(Request $request) {
     
     $validator = Validator::make($request->all(), [
             'name' => 'required',
@@ -106,3 +177,4 @@ Route::post('/intern/apply', function(Request $request) {
 
         return JSONResponse::response($status_code, $response);
 });
+*/
