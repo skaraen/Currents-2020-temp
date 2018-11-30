@@ -83,7 +83,8 @@ Route::post('/cca/apply', function(Request $request) {
         }
 
 
-        $last_id = DB::getPdo()->lastInsertId();
+        $last = CcaDetails::all()->last();
+        $last_id = $last->id;
 
         $ref_id = "CCA19-".str_pad($last_id + 1, 4, "0", STR_PAD_LEFT);
 
