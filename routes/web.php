@@ -84,5 +84,7 @@ Route::get('/cca/apply', function() {
 	return view('18.cca_apply');
 });
 
-
+Route::get('/eureka', function() {
+	return view('18.eureka');
+});
 

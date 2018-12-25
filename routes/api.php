@@ -5,6 +5,7 @@ use Illuminate\Http\Request;
 use Sangria\JSONResponse;
 use Sangria\IMAPAuth;
 use App\CcaDetails;
+use App\EurekaDetails;
 
 /*
 |--------------------------------------------------------------------------
@@ -112,23 +113,16 @@ Route::post('/cca/apply', function(Request $request) {
 });
 
 
-/*Route::post('/intern/apply', function(Request $request) {
+Route::post('/eureka/apply', function(Request $request) {
     
     $validator = Validator::make($request->all(), [
-            'name' => 'required',
-            'roll' => 'required|integer',
-            'email_id' => 'required|email',
-            'phone' => 'required',
-            'year' => 'required',
-            'project_one' => 'required',
-            'project_two' => 'required',
-            'project_three' => 'required',
-            'sop_one' => 'required',
-            'sop_two' => 'required',
-            'sop_three' => 'required',
-            'cgpa' => 'required'
-
-
+            'name_1' => 'required',
+            'class_1' => 'required',
+            'name_2' => 'required',
+            'class_2' => 'required',
+            'school' => 'required',
+            'theme' => 'required',
+            'abstract' => 'required'
         ]);
 
         if ($validator->fails()) {
@@ -137,45 +131,34 @@ Route::post('/cca/apply', function(Request $request) {
             return JSONResponse::response($status_code, $response);
         }
         
-        $name     = $request->input('name');
-        $roll     = $request->input('roll');
-        $email_id = $request->input('email_id');
-        $phone    = $request->input('phone');
-        $year     = $request->input('year');
-        $project_one  = $request->input('project_one');
-        $sop_one = $request->input('sop_one');
-        $project_two  = $request->input('project_two');
-        $sop_two = $request->input('sop_two');
-        $project_three  = $request->input('project_three');
-        $sop_three = $request->input('sop_three');
-        $cgpa = $request->input('cgpa');
-        $existing = InternDetails::where('roll', $roll)->first();
+        $name_1     = $request->input('name_1');
+        $class_1    = $request->input('class_1');
+        $name_2     = $request->input('name_2');
+        $class_2    = $request->input('class_2');
+        $name_3     = $request->input('name_3');
+        $class_3    = $request->input('class_3');
+        $name_4     = $request->input('name_4');
+        $class_4    = $request->input('class_4');
+        $school     = $request->input('school');
+        $theme      = $request->input('theme');
+        $abstract   = $request->input('abstract');
 
-        if($existing) {
-            $status_code = 409;
-            $response = "Already registered";
-            return JSONResponse::response($status_code, $response);
-        }
-
-        $intern_registration = new InternDetails();
-        $intern_registration->name = $name;
-        $intern_registration->roll = $roll;
-        $intern_registration->email_id = $email_id;
-        $intern_registration->phone = $phone;
-        $intern_registration->year = $year;
-        $intern_registration->project_one = $project_one;
-        $intern_registration->project_two = $project_two;
-        $intern_registration->project_three = $project_three;
-        $intern_registration->cgpa = $cgpa;
-        $intern_registration->sop_one = $sop_one;
-        $intern_registration->sop_two = $sop_two;
-        $intern_registration->sop_three = $sop_three;
-
-        $intern_registration->save();
+        $eureka_registration = new EurekaDetails();
+        $eureka_registration->name_1 = $name_1;
+        $eureka_registration->class_1 = $class_1;
+        $eureka_registration->name_2 = $name_2;
+        $eureka_registration->class_2 = $class_2;
+        $eureka_registration->name_3 = $name_3;
+        $eureka_registration->class_3 = $class_3;
+        $eureka_registration->name_4 = $name_4;
+        $eureka_registration->class_4 = $class_4;
+        $eureka_registration->school = $school;
+        $eureka_registration->theme = $theme;
+        $eureka_registration->abstract = $abstract;
+        $eureka_registration->save();
 
         $status_code = 200;
         $response = "OK";
 
         return JSONResponse::response($status_code, $response);
 });
-*/
