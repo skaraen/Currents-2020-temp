@@ -88,3 +88,14 @@ Route::get('/eureka', function() {
 	return view('18.eureka');
 });
 
+Route::get('/volts', function() {
+	return view('18.volts');
+});
+
+Route::get('/volts/bangalore', function() {
+	return view('18.bangalore');
+});
+
+Route::get('/eureka/register', function() {
+	return view('18.eureka_register');
+});

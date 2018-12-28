@@ -121,6 +121,8 @@ Route::post('/eureka/apply', function(Request $request) {
             'name_2' => 'required',
             'class_2' => 'required',
             'school' => 'required',
+            'coordinator' => 'required',
+            'phone' => 'required',
             'theme' => 'required',
             'abstract' => 'required'
         ]);
@@ -131,17 +133,21 @@ Route::post('/eureka/apply', function(Request $request) {
             return JSONResponse::response($status_code, $response);
         }
         
-        $name_1     = $request->input('name_1');
-        $class_1    = $request->input('class_1');
-        $name_2     = $request->input('name_2');
-        $class_2    = $request->input('class_2');
-        $name_3     = $request->input('name_3');
-        $class_3    = $request->input('class_3');
-        $name_4     = $request->input('name_4');
-        $class_4    = $request->input('class_4');
-        $school     = $request->input('school');
-        $theme      = $request->input('theme');
-        $abstract   = $request->input('abstract');
+        $name_1      = $request->input('name_1');
+        $class_1     = $request->input('class_1');
+        $name_2      = $request->input('name_2');
+        $class_2     = $request->input('class_2');
+        $name_3      = $request->input('name_3');
+        $class_3     = $request->input('class_3');
+        $name_4      = $request->input('name_4');
+        $class_4     = $request->input('class_4');
+        $school      = $request->input('school');
+        $school_address = $request->input('school_address');
+        $coordinator = $request->input('coordinator');
+        $phone       = $request->input('phone');
+        $email       = $request->input('email');
+        $theme       = $request->input('theme');
+        $abstract    = $request->input('abstract');
 
         $eureka_registration = new EurekaDetails();
         $eureka_registration->name_1 = $name_1;

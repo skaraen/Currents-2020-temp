@@ -23,11 +23,15 @@ class CreateEurekadetailsTable extends Migration
             $table->string('class_3');
             $table->string('name_4');
             $table->string('class_4');
+            $table->string('coordinator');
+            $table->string('phone');
             $table->string('school');
+            $table->string('school_address');
+            $table->string('email');
             $table->string('theme');
             $table->text('abstract');
             $table->timestamps();
-        });
+        }); 
     }
 
     /**

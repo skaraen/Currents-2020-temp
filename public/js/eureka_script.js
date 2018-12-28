@@ -15,6 +15,10 @@ function register() {
 	form_data.append('name_4', ($('#name_4').val() == '' ? 'NA' : $('#name_4').val()));
 	form_data.append('class_4', ($('#class_4').val() == '' ? 'NA' : $('#class_4').val()));
 	form_data.append('school', $('#school').val());
+	form_data.append('school_address', $('#school_address').val());
+	form_data.append('coordinator', $('#coordinator').val());
+	form_data.append('phone', $('#phone').val());
+	form_data.append('email', $('#email').val());
 	form_data.append('theme', $('#theme').val());
 	form_data.append('abstract', $('#abstract').val());
 	
@@ -28,7 +32,7 @@ function register() {
 	request.done(function(data){
 		data = JSON.parse(data);
 		if(data.status_code == 200) {
-			$('#form').hide();
+			$('form').hide();
 			$('#error').html("Sucessfully registered.");
 			$('#error').show();
 		} else if(data.status_code==400) {
