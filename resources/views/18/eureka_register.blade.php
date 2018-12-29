@@ -130,18 +130,6 @@ margin-left: 34%;
             <input placeholder="Class / Standard*" id="class_2" type="text" tabindex="1" required autofocus>
         </fieldset>
         <fieldset>
-            <input placeholder="Team Member 3" id="name_3" type="text" tabindex="1" autofocus>
-        </fieldset>
-        <fieldset>
-            <input placeholder="Class / Standard" id="class_3" type="text" tabindex="1" autofocus>
-        </fieldset>
-        <fieldset>
-            <input placeholder="Team Member 4" id="name_4" type="text" tabindex="1" autofocus>
-        </fieldset>
-        <fieldset>
-            <input placeholder="Class / Standard" id="class_4" type="text" tabindex="1" autofocus>
-        </fieldset>
-        <fieldset>
             <input placeholder="School*" id="school" type="text" tabindex="2" required>
         </fieldset>
         <fieldset>
@@ -154,7 +142,7 @@ margin-left: 34%;
             <input placeholder="Teacher Coordinator Contact Number*" id="phone" type="text" tabindex="2" required>
         </fieldset>
         <fieldset>
-            <input placeholder="Email" id="email" type="text" tabindex="2" required>
+            <input placeholder="Email of Teacher Coordinator" id="email" type="text" tabindex="2" required>
         </fieldset>
         <fieldset>
             <select id="theme">

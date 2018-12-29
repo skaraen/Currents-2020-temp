@@ -96,6 +96,10 @@ Route::get('/volts/bangalore', function() {
 	return view('18.bangalore');
 });
 
+Route::get('/volts/kochi', function() {
+	return view('18.coming_soon');
+});
+
 Route::get('/eureka/register', function() {
 	return view('18.eureka_register');
 });

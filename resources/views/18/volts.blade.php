@@ -1,4 +1,4 @@
-<title>VOLTS Outreach</title>
+<title>VOLTS</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script type="text/javascript" src="{{asset('js/script.js')}}"></script>
@@ -49,26 +49,19 @@ h1 {
 	font-size: 2em;
 	font-weight: bolder;
 }
-
-
 section {
 	padding: 10%;
 	line-height: 40px;
 }
-
 .logo {
-	height: 15%;
-	width: auto;
-	float: left;
+	height: 20%;
 }
-
 .content img {
-	height: 40%;
+	height: 70%;
 	padding: 5%;
 	width: auto;
 	text-align: center;
 }
-
 .img-link {
 	transition: all .5s;
 	opacity: 0.85;
@@ -78,40 +71,46 @@ section {
 	opacity: 1;
 }
 
+.left {
+	float: left;
+	height: 20%;
+}
 html{scroll-behavior:smooth}
-
 @media only screen and (max-width: 600px) {
-	.title {
-		text-align: center;
-		font-size: 6em;
-		padding: 1%;
-		margin-top: 30px;
+	body {
+		font-family:"Chakra Petch", Helvetica, Arial, sans-serif;
+		font-size: 14px;
+		font-weight: 400;
+		color: white;
+		-webkit-font-smoothing: antialiased;
+		font-smoothing: antialiased;
+		background: url("{{ asset('images/volts-bg.jpeg') }}");
+		background-size: 100%;
 	}
-	img {
-		height: 5%;
+	.content img {
+		height: 30%;
+		padding: 5%;
 		width: auto;
-		margin-left: 50%;
+		text-align: center;
+	}
+	.logo {
+		height: 5%;
 	}
 	.content{
 		font-family:"Nunito", Helvetica, Arial, sans-serif;
-		width: 80%;
-		margin: auto;
 		font-size: 1.5em;
-	}
-	section {
-		width: 120%;
-		padding: 15%;
-		line-height: 40px;
 	}
 }
 </style>
+<img class="logo left" src="{{asset('images/logo-wb.png')}}">
 <div class="container">
 	<div class="wrapper">
-		<!--<img class="logo" src="{{asset('images/logo-wb.png')}}">-->
-		<div class="title"> VOLTS Outreach</div>
+		<div class="title">
+			<img class="logo" src="{{asset('images/volts_logo-wb.png')}}">
+		</div>
 	</div>
 	<div class="content">
 		<a href="{{ env('APP_BASE_URL') }}/volts/bangalore"><img class="img-link" src="{{asset('images/or-bang.jpeg')}}"></a>
-		<a href="#"><img class="img-link" src="{{asset('images/or-kochi.jpeg')}}"></a>
+		<a href="{{ env('APP_BASE_URL') }}/volts/kochi"><img class="img-link" src="{{asset('images/or-kochi.jpeg')}}"></a>
 	</div>
 </div>

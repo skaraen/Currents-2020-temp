@@ -10,10 +10,6 @@ function register() {
 	form_data.append('class_1', $('#class_1').val());
 	form_data.append('name_2', $('#name_2').val());
 	form_data.append('class_2', $('#class_2').val());
-	form_data.append('name_3', ($('#name_3').val() == '' ? 'NA' : $('#name_3').val()));
-	form_data.append('class_3', ($('#class_3').val() == '' ? 'NA' : $('#class_3').val()));
-	form_data.append('name_4', ($('#name_4').val() == '' ? 'NA' : $('#name_4').val()));
-	form_data.append('class_4', ($('#class_4').val() == '' ? 'NA' : $('#class_4').val()));
 	form_data.append('school', $('#school').val());
 	form_data.append('school_address', $('#school_address').val());
 	form_data.append('coordinator', $('#coordinator').val());

@@ -250,12 +250,7 @@ html {
 				</ul>
 			</section>
 			<section id="prizes">
-				<h1>Prizes</h1>
-				<ul>
-					<li>1st Prize - Rs 10,000</li>
-					<li>2nd Prize - Rs 6,000</li>
-					<li>3rd Prize - Rs 4,000</li>
-				</ul>
+				<h1>Prizes worth Rs 20000 to be won !</h1>
 			</section>
 			<section id="contact">
 				<h1>Contact</h1>

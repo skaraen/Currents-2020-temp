@@ -58,75 +58,7 @@
 	</style>
 </head>
 <body>
-	<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/currents">
-          <img src="images/currents_logo.png" width="45" height="45" style="margin-top: -25%;">
-      </a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="schedule">SCHEDULE</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="workshops">WORKSHOPS</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="events">EVENTS</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="lectures">LECTURES</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="initiatives">INITIATIVES</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="hospitality">SPONSORS</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="outreach">OUTREACH</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="contact">CONTACT US</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="about">ABOUT</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="faq">FAQ</a>
-            </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-	<p>
-		<div>
-			<img id="logo" src="{{asset('images/currents_logo_white.png')}}"/>
-		</div>
-	</p>
-	<p>
-		<div id="description-bottom-text">
-		</div>
+	<div id="description-bottom-text"></div>
 	</p>
 </body>
 <script type="text/javascript">
@@ -155,8 +87,6 @@
 	}
 	renderTextFunction("description-bottom-text",DESC_STRING);
 </script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112754407-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
