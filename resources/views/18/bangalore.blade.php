@@ -1,5 +1,6 @@
 <title>VOLTS Bengaluru</title>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="{{ asset('images/title_bar.png') }}" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
 	window.onscroll = () => {
 		const nav = document.querySelector('nav');
@@ -54,14 +55,11 @@ body {
 	width: 30%;
 }
 ._button {
-	background-color: #f44336;
-	border: none;
 	color: white;
 	padding: 1% 2%;
 	text-align: center;
 	display: block;
 	cursor: pointer;
-	font-size: 1.5em;
 	margin-right: 13%;
 	float: right;
 }
@@ -90,6 +88,9 @@ nav li a {
 	color: black;
 	padding: 14px 16px;
 	text-decoration: none;
+}
+a {
+	color: white;
 }
 section {
 	padding: 5%;
@@ -138,13 +139,11 @@ html {
 		line-height: 40px;
 	}
 	._button {
-		background-color: #f44336;
 		border: none;
 		color: white;
 		text-align: center;
 		display: block;
 		cursor: pointer;
-		font-size: 1.5em;
 		float: none;
 		margin-left: 30%;
 	}
@@ -165,13 +164,13 @@ html {
 				<li style="float: right"><a href="#details">Details</a></li>
 				<li style="float: right"><a href="#content">Content</a></li>
 				<li style="float: right"><a href="#overview">Overview</a></li>
-				<li><a style="padding: 0; height: 100%"><img src="{{asset('images/logo-bw.png')}}"></a></li>
+				<li><a href="https://www.facebook.com/currentsnitt" style="padding: 0; height: 100%"><img src="{{asset('images/logo-bw.png')}}"></a></li>
 			</ul>
 		</nav>
 		<div>&nbsp;</div>
 		<div class="title"> VOLTS Bengaluru<br><br> BMS College of Engineering,<br> Bull Temple Road, Bengaluru <br><br> 26th and 27th January 2019</div>
 		<div>
-			<button type="button" onclick="popup('currents-nit-trichy-324022');" class="_button tsbutton" >Register Now !</button>
+			<button type="button" onclick="location='https://bit.ly/2RqK0K4'" class="_button tsbutton" >Register Now !</button>
 		</div>
 		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		<div class="content" id="grid">
@@ -249,7 +248,7 @@ html {
 				<p>You can also reach out to us at <a href="mailto:eee.currents@gmail.com">eee.currents@gmail.com</a></p>
 			</section>
 			<section id="register">
-				<button onclick="popup('currents-nit-trichy-324022');" class="tsbutton">Register Now</button><noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="//www.townscript.com/organizer-popup-widget/townscript-organizer-widget.nocache.js" type="text/javascript"></script>
+				<button onclick="location='https://bit.ly/2RqK0K4'" class="tsbutton">Register Now</button><noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="//www.townscript.com/organizer-popup-widget/townscript-organizer-widget.nocache.js" type="text/javascript"></script>
 				<!--<iframe src="https://www.townscript.com/ow/currents-nit-trichy-324022" frameborder="0" height="600" width="80%"></iframe>-->
 			</section>
 		</div>

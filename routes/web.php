@@ -92,7 +92,7 @@ Route::get('/volts', function() {
 	return view('18.volts');
 });
 
-Route::get('/volts/bangalore', function() {
+Route::get('/volts/bengaluru', function() {
 	return view('18.bangalore');
 });
 
