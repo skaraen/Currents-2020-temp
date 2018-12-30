@@ -97,7 +97,7 @@ Route::get('/volts/bengaluru', function() {
 });
 
 Route::get('/volts/kochi', function() {
-	return view('18.coming_soon');
+	return view('18.kochi');
 });
 
 Route::get('/eureka/register', function() {

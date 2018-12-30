@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Currents'18</title>
+    <title>Currents'19</title>
     <link rel="shortcut icon" href="images/title_bar.png" />
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -43,11 +43,11 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="schedule">SCHEDULE</a>
+              <a class="nav-link js-scroll-trigger" href="volts">VOLTS</a>
             </li>
             
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="workshops">WORKSHOPS</a>
+              <a class="nav-link js-scroll-trigger" href="eureka">EUREKA</a>
             </li>
             
             <li class="nav-item">
@@ -98,17 +98,11 @@
           <div class="col-lg-10 mx-auto">
 	    <h3>Click <a href="magazines/Tronicals_4_1.pdf" style="color: #75eade;">here</a> to download the latest Tronicals </h3>
             <h1 class="text-uppercase">
-                <img src="images/currents_logo_white.png" style="max-width:400px;
+                <img src="{{ asset('images/logo-wb.png') }}" style="max-width:400px;
                 width: 300px;" />
             </h1>
           </div>
-          <div class="col-lg-8 mx-auto">
-            <p class="text-faded mb-5">
-             <b>Currents</b><br/>
-             <b>Feb 15-18, 2018</b><br/>
-              <i>Power System Automation</i>
-            </p>
-          </div>
+
         </div>
       </div>
     </header>
