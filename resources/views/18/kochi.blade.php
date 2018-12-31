@@ -169,7 +169,7 @@ html {
 		<div>&nbsp;</div>
 		<div class="title"> VOLTS Kochi<br><br> Rajagiri School of Engineering,<br> Rajagiri Valley, Kochi <br><br> 26th and 27th January 2019</div>
 		<div>
-			<button type="button" onclick="location='https://bit.ly/2TdWB0D'" class="_button tsbutton" disabled>Register Now !</button>
+			<button type="button" onclick="location='https://bit.ly/2TdWB0D'" class="_button tsbutton">Register Now !</button>
 		</div>
 		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		<div class="content" id="grid">
@@ -214,7 +214,7 @@ html {
 					</li>
 					<li>TIMINGS: 9:30 AM to 5:30 PM</li>
 					<li>COST OF WORKSHOP: INR 2,400/- for a Team</li>
-					<li>A Team can consist of maximum 3 members.</li>
+					<li>A Team can consist of maximum 4 members.</li>
 					<li><strong>Limited number of seats</strong></li>
 				</ul>
 				<span class="map_sec" style="float: right"><iframe frameborder="0" height="285px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.283066789462!2d76.35590221421822!3d9.993460392855662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080ca6b98ae0f7%3A0xc81786bb40617774!2sRajagiri+School+of+Engineering+%26+Technology!5e0!3m2!1sen!2sin!4v1546146179590" style="border:1px solid #e6eae3" width="100%"></iframe></span>
@@ -247,7 +247,7 @@ html {
 				<p>You can also reach out to us at <a href="mailto:eee.currents@gmail.com">eee.currents@gmail.com</a></p>
 			</section>
 			<section id="register">
-				<button onclick="location='https://bit.ly/2TdWB0D'" class="tsbutton" disabled>Register Now</button><noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="//www.townscript.com/organizer-popup-widget/townscript-organizer-widget.nocache.js" type="text/javascript"></script>
+				<button onclick="location='https://bit.ly/2TdWB0D'" class="tsbutton">Register Now</button><noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="//www.townscript.com/organizer-popup-widget/townscript-organizer-widget.nocache.js" type="text/javascript"></script>
 			</section>
 		</div>
 		
