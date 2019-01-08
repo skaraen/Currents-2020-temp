@@ -135,12 +135,10 @@ Route::post('/eureka/apply', function(Request $request) {
         
         $name_1      = $request->input('name_1');
         $class_1     = $request->input('class_1');
+        $contact_1   = $request->input('contact_1');
         $name_2      = $request->input('name_2');
         $class_2     = $request->input('class_2');
-        $name_3      = $request->input('name_3');
-        $class_3     = $request->input('class_3');
-        $name_4      = $request->input('name_4');
-        $class_4     = $request->input('class_4');
+        $contact_2   = $request->input('contact_2');
         $school      = $request->input('school');
         $school_address = $request->input('school_address');
         $coordinator = $request->input('coordinator');
@@ -150,17 +148,21 @@ Route::post('/eureka/apply', function(Request $request) {
         $abstract    = $request->input('abstract');
 
         $eureka_registration = new EurekaDetails();
+
         $eureka_registration->name_1 = $name_1;
         $eureka_registration->class_1 = $class_1;
+        $eureka_registration->contact_1 = $contact_1;
         $eureka_registration->name_2 = $name_2;
         $eureka_registration->class_2 = $class_2;
-        $eureka_registration->name_3 = $name_3;
-        $eureka_registration->class_3 = $class_3;
-        $eureka_registration->name_4 = $name_4;
-        $eureka_registration->class_4 = $class_4;
+        $eureka_registration->contact_2 = $contact_2;
         $eureka_registration->school = $school;
+        $eureka_registration->school_address = $school_address;
+        $eureka_registration->coordinator = $coordinator;
+        $eureka_registration->phone = $phone;
+        $eureka_registration->email = $email;
         $eureka_registration->theme = $theme;
         $eureka_registration->abstract = $abstract;
+
         $eureka_registration->save();
 
         $status_code = 200;

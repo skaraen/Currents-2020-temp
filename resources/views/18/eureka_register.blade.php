@@ -124,10 +124,16 @@ margin-left: 34%;
             <input placeholder="Class / Standard*" id="class_1" type="text" tabindex="1" required autofocus>
         </fieldset>
         <fieldset>
+            <input placeholder="Contact number of Parent" id="contact_1" type="text" tabindex="1" autofocus>
+        </fieldset>
+        <fieldset>
             <input placeholder="Team Member 2*" id="name_2" type="text" tabindex="1" required autofocus>
         </fieldset>
         <fieldset>
             <input placeholder="Class / Standard*" id="class_2" type="text" tabindex="1" required autofocus>
+        </fieldset>
+        <fieldset>
+            <input placeholder="Contact number of Parent" id="contact_2" type="text" tabindex="1" autofocus>
         </fieldset>
         <fieldset>
             <input placeholder="School*" id="school" type="text" tabindex="2" required>

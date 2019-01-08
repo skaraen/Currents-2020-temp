@@ -8,8 +8,10 @@ function register() {
 	}
 	form_data.append('name_1', $('#name_1').val());
 	form_data.append('class_1', $('#class_1').val());
+	form_data.append('contact_1', $('#contact_1').val());
 	form_data.append('name_2', $('#name_2').val());
 	form_data.append('class_2', $('#class_2').val());
+	form_data.append('contact_2', $('#contact_2').val());
 	form_data.append('school', $('#school').val());
 	form_data.append('school_address', $('#school_address').val());
 	form_data.append('coordinator', $('#coordinator').val());
@@ -29,8 +31,8 @@ function register() {
 		data = JSON.parse(data);
 		if(data.status_code == 200) {
 			$('form').hide();
-			$('#error').html("Sucessfully registered.");
-			$('#error').show();
+			alert("Sucessfully registered.");
+			location.href = API_BASE_URL + '/eureka';
 		} else if(data.status_code==400) {
 			alert('Please enter all (*) marked fields.');
 		} else {
