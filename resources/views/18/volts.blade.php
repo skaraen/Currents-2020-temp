@@ -11,7 +11,7 @@ var API_BASE_URL = "{{ env('APP_BASE_URL') }}";
 @import url('https://fonts.googleapis.com/css?family=Chakra+Petch');
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 body {
-	font-family:"Chakra Petch", Helvetica, Arial, sans-serif;
+	font-family:"Nunito", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	color: white;
@@ -21,17 +21,17 @@ body {
 	background-size: cover;
 }
 .title{
-	text-align: center;
 	font-weight: bold;
 	font-size: 5em;
 	padding: 1%;
-	margin: auto;
+	padding-left: 45%;
+	margin: a;
 	background-color: rgba(242, 244, 230, 0.6);
 }
 .content{
 	font-family:"Nunito", Helvetica, Arial, sans-serif;
 	margin: auto;
-	width: 70%;
+	width: 90%;
 	text-align: center;
 	font-size: 1.5em;
 }
@@ -63,6 +63,10 @@ section {
 	padding: 5%;
 	width: auto;
 	text-align: center;
+}
+.smaller {
+	height: 50% !important;
+	padding: 4% !important;
 }
 .img-link {
 	transition: all .5s;
@@ -101,6 +105,10 @@ html{scroll-behavior:smooth}
 		font-family:"Nunito", Helvetica, Arial, sans-serif;
 		font-size: 1.5em;
 	}
+	.smaller {
+		height: 30% !important;
+		padding: 5% !important;
+	}
 }
 </style>
 <a href="https://www.facebook.com/currentsnitt"><img class="logo left" src="{{asset('images/logo-bw.png')}}"></a>
@@ -113,6 +121,13 @@ html{scroll-behavior:smooth}
 	<div class="content">
 		<a href="{{ env('APP_BASE_URL') }}/volts/bengaluru"><img class="img-link" src="{{asset('images/blore-round.png')}}"></a>
 		<a href="{{ env('APP_BASE_URL') }}/volts/kochi"><img class="img-link" src="{{asset('images/kochi-round.png')}}"></a>
+		<div class="second">
+			<div style="font-family: 'Chakra Petch';font-size: 1.5em; padding: 3%; color: #ffff99; font-weight: bolder">REGISTER BELOW FOR MOCK GATE EXAMINATIONS</div>
+			<a href="{{ env('APP_BASE_URL') }}/volts/trichy"><img class="img-link smaller" src="{{asset('images/trichy-round.png')}}"></a>
+			<a href="{{ env('APP_BASE_URL') }}/volts/tirunelveli"><img class="img-link smaller" src="{{asset('images/tirunelveli-round.png')}}"></a>
+			<a href="{{ env('APP_BASE_URL') }}/volts/salem"><img class="img-link smaller" src="{{asset('images/salem-round.png')}}"></a>
+			<a href="{{ env('APP_BASE_URL') }}/volts/madurai"><img class="img-link smaller" src="{{asset('images/madurai-round.png')}}"></a>
+		</div>
 
 	</div>
 </div>
