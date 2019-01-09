@@ -105,10 +105,6 @@ html{scroll-behavior:smooth}
 		font-family:"Nunito", Helvetica, Arial, sans-serif;
 		font-size: 1.5em;
 	}
-	.smaller {
-		height: 30% !important;
-		padding: 5% !important;
-	}
 }
 </style>
 <a href="https://www.facebook.com/currentsnitt"><img class="logo left" src="{{asset('images/logo-bw.png')}}"></a>
@@ -125,6 +121,7 @@ html{scroll-behavior:smooth}
 			<div style="font-family: 'Chakra Petch';font-size: 1.5em; padding: 3%; color: #ffff99; font-weight: bolder">REGISTER BELOW FOR MOCK GATE EXAMINATIONS</div>
 			<a href="{{ env('APP_BASE_URL') }}/volts/trichy"><img class="img-link smaller" src="{{asset('images/trichy-round.png')}}"></a>
 			<a href="{{ env('APP_BASE_URL') }}/volts/tirunelveli"><img class="img-link smaller" src="{{asset('images/tirunelveli-round.png')}}"></a>
+			<br>
 			<a href="{{ env('APP_BASE_URL') }}/volts/salem"><img class="img-link smaller" src="{{asset('images/salem-round.png')}}"></a>
 			<a href="{{ env('APP_BASE_URL') }}/volts/madurai"><img class="img-link smaller" src="{{asset('images/madurai-round.png')}}"></a>
 		</div>

@@ -102,6 +102,7 @@ img {
 	height: 10%;
 	width: auto;
 	margin-left: 3%;
+	max-height: 65px;
 }
 html {
 	scroll-behavior:smooth
@@ -165,7 +166,7 @@ html {
 				<li style="float: right"><a href="#details">Details</a></li>
 				<li style="float: right"><a href="#about">About</a></li>
 				<li><a href="https://www.facebook.com/currentsnitt" style="float: left;padding: 0; height: 100%; margin-left: 1%;"><img src="{{asset('images/logo-bw.png')}}"></a></li>
-				<li><a href="https://www.aceenggacademy.com/"><img style="height: 6%;" src="{{asset('images/ace-logo-1.png')}}"></a></li>
+				<li><a href="https://www.aceenggacademy.com/"><img style="height: 6%; max-height: 40px;" src="{{asset('images/ace-logo-1.png')}}"></a></li>
 			</ul>
 		</nav>
 		<div>&nbsp;</div>

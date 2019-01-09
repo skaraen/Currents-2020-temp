@@ -101,6 +101,8 @@ img {
 	height: 8%;
 	width: auto;
 	margin-left: 3%;
+	max-height: 65px;
+
 }
 html {
 	scroll-behavior:smooth
