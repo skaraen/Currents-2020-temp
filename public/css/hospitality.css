@@ -1,0 +1,26 @@
+body {
+	background: url('../images/hospi.jpg');
+	background-size: cover;
+	color: white;
+	background-position: 0% 80%;
+}
+
+.content {
+	text-align: left;
+	padding-top: 10%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.button {
+	background-color: #f44336;
+	float: right;
+	margin-top: 5%;
+	border: none;
+	color: white;
+	padding: 1% 2%;
+	text-align: center;
+	display: block;
+	cursor: pointer;
+	font-size: 1em;
+	margin-right: 10%;
+}

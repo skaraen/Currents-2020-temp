@@ -1,0 +1,33 @@
+body {
+    background: url('../images/workshops_main.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+
+}
+
+.title {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    padding-top: 8%;
+}
+
+.img-link {
+    transition: all .5s;
+    opacity: 0.85;
+}
+.img-link:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+.content {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+img {
+    height: 300px;
+    padding: 2%;
+    width: auto;
+    display: inline;
+}
