@@ -189,6 +189,9 @@ html {
 					<li>TIMINGS: {!! $timings !!}</li>
 					<li>COST OF WORKSHOP: INR {{ $cost }}</li>
 					<li>{{ $team_max }}</li>
+					@if($slots == true)
+					<li><strong>Attending one slot is necessary to complete the workshop.</strong></li>
+					@endif
 					<li><strong>Limited number of seats</strong></li>
 				</ul>
 			</section>

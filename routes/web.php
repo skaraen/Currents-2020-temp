@@ -147,7 +147,8 @@ Route::get('/workshops/gcr', function() {
 			'color' => 'white',
 			'talign' => 'left',
 			'team_spec' => 'A Team can consist of maximum 3 members.',
-			'prereq' => true
+			'prereq' => true,
+			'slots' => false
 		];
 	return view('19.workshop', $arr);
 });
@@ -186,7 +187,8 @@ Route::get('/workshops/pcb', function() {
 			'color' => 'white',
 			'talign' => 'right',
 			'team_spec' => 'This is an individual workshop.',
-			'prereq' => false
+			'prereq' => false,
+			'slots' => true
 
 		];
 	return view('19.workshop', $arr);
@@ -212,7 +214,8 @@ Route::get('/workshops/python', function() {
 			'color' => 'white',
 			'talign' => 'left',
 			'team_spec' => 'This is an individual workshop.',
-			'prereq' => false
+			'prereq' => false,
+			'slots' => true
 
 		];
 	return view('19.workshop', $arr);
@@ -239,7 +242,8 @@ However, the real flare for the innovation began with Nianticâ€™s launch of PokÃ
 			'color' => 'white',
 			'talign' => 'left',
 			'team_spec' => 'This is an individual workshop.',
-			'prereq' => false
+			'prereq' => false,
+			'slots' => false
 
 		];
 	return view('19.workshop', $arr);
@@ -266,7 +270,8 @@ Slot 2 : 01:30 PM - 04:30 PM - FEBRUARY 17th 2019<br>',
 			'color' => 'black',
 			'talign' => 'right',
 			'team_spec' => 'This is an individual workshop.',
-			'prereq' => false
+			'prereq' => false,
+			'slots' => true
 
 		];
 	return view('19.workshop', $arr);
@@ -294,7 +299,8 @@ Route::get('/workshops/renewable', function() {
 			'color' => 'black',
 			'talign' => 'right',
 			'team_spec' => 'This is an individual workshop.',
-			'prereq' => false
+			'prereq' => false,
+			'slots' => false
 		];
 	return view('19.workshop', $arr);
 });
@@ -318,7 +324,8 @@ Route::get('/workshops/touchpad', function() {
 			'color' => 'white',
 			'talign' => 'left',
 			'team_spec' => 'A team of maximum 3 members.',
-			'prereq' => true
+			'prereq' => true,
+			'slots' => false
 
 		];
 	return view('19.workshop', $arr);
