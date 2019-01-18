@@ -91,7 +91,7 @@ Route::get('/volts/tirunelveli', function() {
 	$arr = ['city' => 'Tirunelveli',
 			'college' => 'Government College of Engineering',
 			'area' => 'Trivandrum Road',
-			'date' => '20th January 2019',
+			'date' => '27th January 2019',
 			'venue' => 'GOVERNMENT COLLEGE OF ENGINEERING<br>
 						TRIVANDRUM ROAD, MARSHAL NAGAR,<br>
 						TIRUNELVELI - 627 007, TAMIL NADU, INDIA.<br>',
@@ -105,7 +105,7 @@ Route::get('/volts/salem', function() {
 	$arr = ['city' => 'Salem',
 			'college' => 'Mahendra Engineering College',
 			'area' => '',
-			'date' => '20th January 2019',
+			'date' => '27th January 2019',
 			'venue' => 'MAHENDRA ENGINEERING COLLEGE<br>
 						SALEM - THIRUCHENGODE HIGHWAY, MAHENDHIRAPURI,<br>
 						SALEM - 637 503, TAMIL NADU, INDIA.<br>',
@@ -129,6 +129,54 @@ Route::get('/volts/madurai', function() {
 		];
 	return view('19.gate', $arr);
 });
+Route::get('/volts/chennai', function() {
+	$arr = ['city' => 'Chennai',
+			'college' => 'Central Leather Research Institute',
+			'area' => 'Chennai',
+			'date' => '27th January 2019',
+			'venue' => 'Near Sardar Patel Road Adyar, CLRI Staff Quarters,<br>
+						Indian Institute Of Technology, Chennai,<br>
+						Tamil Nadu 600020',
+			'timings' => '2 PM to 5 PM',
+			'map' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.4294159863416!2d80.24143651425264!3d13.008303990831767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267976f80a8fd%3A0x2a683d2afe3c7c5a!2sCSIR+-+Central+Leather+Research+Institute!5e0!3m2!1sen!2sin!4v1547797989866',
+			'link' => 'https://www.townscript.com/e/mock-gate-examination-chennai'
+		];
+	return view('19.gate', $arr);
+});
+
+Route::get('/volts/coimbatore', function() {
+	$arr = ['city' => 'Coimbatore',
+			'college' => 'Karpagam Institute of Technology',
+			'area' => 'Coimbatore',
+			'date' => '27th January 2019',
+			'venue' => 'KARPAGAM INSTITUTE OF TECHNOLOGY,<br>
+						S.F.No.247,248, L&T Bypass Road,<br>
+						Seerapalayam Village, Bodipalayam Post,<br>
+						Coimbatore, Tamil Nadu 641105',
+			'timings' => '10 AM to 1 PM',
+			'map' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.727621973319!2d76.97585821422771!3d10.908292892232115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85ae942396eef%3A0xf18c9eb8f29896d8!2sKarpagam+Institute+of+Technology!5e0!3m2!1sen!2sin!4v1547797780791',
+			'link' => 'https://www.townscript.com/e/simulacrum-currents-coimbatore',
+			'gate' => 'https://www.townscript.com/e/mock-gate-examination-coimbatore-gate'
+		];
+	return view('19.event_or', $arr);
+});
+
+Route::get('/volts/pondicherry', function() {
+	$arr = ['city' => 'Pondicherry',
+			'college' => 'National Institute of Technology',
+			'area' => 'Pondicherry',
+			'date' => '27th January 2019',
+			'venue' => 'NIT PONDICHERRY,<br>
+						Mandapathur Road, Thiruvettakudy,<br>
+						Karaikal, Puducherry 609609',
+			'timings' => '10 AM to 1 PM',
+			'map' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.6527290428676!2d79.84282211390261!3d10.9895632582305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a55112d00000001%3A0xf49a63b1a880ea5f!2sNIT%2C+Puducherry!5e0!3m2!1sen!2sin!4v1547797482548',
+			'link' => 'https://www.townscript.com/e/simulacrum-currents-pondicherry',
+			'gate' => 'https://www.townscript.com/e/mock-gate-examination-pondicherry-gate'
+		];
+	return view('19.event_or', $arr);
+});
+
 Route::get('/workshops/gcr', function() {
 	$arr = ['title' => 'GESTURE CONTROLLED ROBOTICS',
 			'bg' => 'gcr.jpg',

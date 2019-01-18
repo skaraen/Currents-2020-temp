@@ -17,15 +17,15 @@ body {
 	color: white;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
-	background: url("{{ asset('images/volts-bg.jpeg') }}");
+	background: url("{{ asset('images/volts-bg.jpg') }}");
 	background-size: cover;
+	background-position: 50% 0%;
 }
 .title{
 	font-weight: bold;
 	font-size: 5em;
 	padding: 1%;
-	padding-left: 45%;
-	margin: a;
+	padding-left: 44%;
 	background-color: rgba(242, 244, 230, 0.6);
 }
 .content{
@@ -89,11 +89,11 @@ html{scroll-behavior:smooth}
 		color: white;
 		-webkit-font-smoothing: antialiased;
 		font-smoothing: antialiased;
-		background: url("{{ asset('images/volts-bg.jpeg') }}");
+		background: url("{{ asset('images/volts-bg.jpg') }}");
 		background-size: 100%;
 	}
 	.content img {
-		height: 30%;
+		height: 20%;
 		padding: 5%;
 		width: auto;
 		text-align: center;
@@ -109,22 +109,22 @@ html{scroll-behavior:smooth}
 </style>
 <a href="https://www.facebook.com/currentsnitt"><img class="logo left" src="{{asset('images/logo-bw.png')}}"></a>
 <div class="wrapper">
-		<div class="title">
-			<img class="logo" src="{{asset('images/volts_logo-bw.png')}}">
-		</div>
+	<div class="title">
+		<img class="logo" src="{{asset('images/volts_logo-bw.png')}}">
 	</div>
+</div>
 <div class="container">
 	<div class="content">
-		<a href="{{ env('APP_BASE_URL') }}/volts/bengaluru"><img class="img-link" src="{{asset('images/blore-round.png')}}"></a>
-		<a href="{{ env('APP_BASE_URL') }}/volts/kochi"><img class="img-link" src="{{asset('images/kochi-round.png')}}"></a>
-		<div class="second">
-			<div style="font-family: 'Chakra Petch';font-size: 1.5em; padding: 3%; color: #ffff99; font-weight: bolder">REGISTER BELOW FOR MOCK GATE EXAMINATIONS</div>
-			<a href="{{ env('APP_BASE_URL') }}/volts/trichy"><img class="img-link smaller" src="{{asset('images/trichy-round.png')}}"></a>
-			<a href="{{ env('APP_BASE_URL') }}/volts/tirunelveli"><img class="img-link smaller" src="{{asset('images/tirunelveli-round.png')}}"></a>
-			<br>
-			<a href="{{ env('APP_BASE_URL') }}/volts/salem"><img class="img-link smaller" src="{{asset('images/salem-round.png')}}"></a>
-			<a href="{{ env('APP_BASE_URL') }}/volts/madurai"><img class="img-link smaller" src="{{asset('images/madurai-round.png')}}"></a>
-		</div>
-
+		<a href="{{ env('APP_BASE_URL') }}/volts/bengaluru"><img class="img-link smaller" src="{{asset('images/blore-round.png')}}"></a>
+		<a href="{{ env('APP_BASE_URL') }}/volts/kochi"><img class="img-link smaller" src="{{asset('images/kochi-round.png')}}"></a>
+		<!--<div class="second">-->
+		<a href="{{ env('APP_BASE_URL') }}/volts/trichy"><img class="img-link smaller" src="{{asset('images/trichy-round.png')}}"></a>
+		<a href="{{ env('APP_BASE_URL') }}/volts/coimbatore"><img class="img-link smaller" src="{{asset('images/coimbatore-round.png')}}"></a>
+		<a href="{{ env('APP_BASE_URL') }}/volts/pondicherry"><img class="img-link smaller" src="{{asset('images/pondicherry-round.png')}}"></a>
+		<a href="{{ env('APP_BASE_URL') }}/volts/madurai"><img class="img-link smaller" src="{{asset('images/madurai-round.png')}}"></a>
+		<a href="{{ env('APP_BASE_URL') }}/volts/tirunelveli"><img class="img-link smaller" src="{{asset('images/tirunelveli-round.png')}}"></a>
+		<a href="{{ env('APP_BASE_URL') }}/volts/salem"><img class="img-link smaller" src="{{asset('images/salem-round.png')}}"></a>
+		<a href="{{ env('APP_BASE_URL') }}/volts/chennai"><img class="img-link smaller" src="{{asset('images/chennai-round.png')}}"></a>
+		<!--</div>-->
 	</div>
 </div>
