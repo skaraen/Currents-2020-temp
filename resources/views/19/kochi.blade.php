@@ -160,6 +160,7 @@ html {
 		<nav>
 			<ul>
 				<li style="float: right"><a href="#register">Register</a></li>
+				<li style="float: right; font-weight: 800"><a href="https://www.townscript.com/e/mock-gate-examination-kochi">GATE</a></li>
 				<li style="float: right"><a href="#contact">Contact</a></li>
 				<li style="float: right"><a href="#rules">Rules</a></li>
 				<li style="float: right"><a href="#details">Details</a></li>
