@@ -146,15 +146,14 @@ Route::get('/volts/chennai', function() {
 
 Route::get('/volts/coimbatore', function() {
 	$arr = ['city' => 'Coimbatore',
-			'college' => 'Karpagam Institute of Technology',
+			'college' => 'Karpagam Academy of Higher Education',
 			'area' => 'Coimbatore',
 			'date' => '27th January 2019',
-			'venue' => 'KARPAGAM INSTITUTE OF TECHNOLOGY,<br>
-						S.F.No.247,248, L&T Bypass Road,<br>
-						Seerapalayam Village, Bodipalayam Post,<br>
-						Coimbatore, Tamil Nadu 641105',
+			'venue' => 'KARPAGAM ACADEMY OF HIGHER EDUCATION,<br>
+					Salem - Kochi Highway, Eachanari,<br>
+					Coimbatore, Tamil Nadu 641021',
 			'timings' => '10 AM to 1 PM',
-			'map' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.727621973319!2d76.97585821422771!3d10.908292892232115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85ae942396eef%3A0xf18c9eb8f29896d8!2sKarpagam+Institute+of+Technology!5e0!3m2!1sen!2sin!4v1547797780791',
+			'map' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5540.3256633085175!2d76.98564680190505!3d10.91783337855187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85af2d5b63f75%3A0x958123c48e7c849d!2sKarpagam+Academy+of+Higher+Education!5e0!3m2!1sen!2sin!4v1548218228167',
 			'link' => 'https://www.townscript.com/e/simulacrum-currents-coimbatore',
 			'gate' => 'https://www.townscript.com/e/mock-gate-examination-coimbatore-gate'
 		];

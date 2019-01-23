@@ -196,6 +196,7 @@ html {
 					</li>
 					<li>TIMINGS: {{ $timings }}</li>
 					<li>NO REGISTRATION FEE</li>
+					<li>The mode of examination is pen and paper.</li>
 				</ul>
 				<span class="map_sec" style="float: right"><iframe frameborder="0" height="285px" src="{{$map}}" style="border:1px solid #e6eae3" width="100%"></iframe></span>
 			</section>

@@ -187,7 +187,8 @@ color: black;
 		<div>&nbsp;</div>
 		<div class="ename">SIMULACRUM</div>
 		<div class="title"> VOLTS {{ $city }}<br><br> {{ $college }}<br> {{ $area }} <br><br> {{ $date }}</div>
-		<div style="margin-top: 1%;">
+<br><br>
+		<div style="margin-top: 5%;">
 			<span class="gate-inf" style="font-size: 1.8em; float: left; margin-left: 4%"> Register here for Gate</span>
 			<span style="font-size: 1.8em; float: right; margin-right: 4%;">Register here for Simulacrum</span>
 			<br><br><br>

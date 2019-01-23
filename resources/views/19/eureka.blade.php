@@ -246,8 +246,8 @@ html {
 			<section id="impt_dates">
 				<h1>Important Dates</h1>
 				<ul>
-					<li>20th January 2019 - Deadline for Registration and Abstract submission.</li>
-					<li>24th January 2019 - Announcement of shortlist for final round.</li>
+					<li>28th January 2019 - Deadline for Registration and Abstract submission.</li>
+					<li>01st Febraury 2019 - Announcement of shortlist for final round.</li>
 					<li>16th February 2019 - Final round</li>
 				</ul>
 			</section>
