@@ -174,7 +174,7 @@ html {
 		<div>
 			<button type="button" onclick="location='{{ $link }}'" class="_button tsbutton" >Register Now !</button>
 		</div>
-		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		<div class="content" id="grid">
 			<section id="overview">
 				<h1>Overview</h1>

@@ -187,7 +187,19 @@ Route::get('/workshops/gcr', function() {
 			'timings' => '9:30 AM to 4:30 PM',
 			'link' => 'https://www.townscript.com/e/gesture-controlled-robotics-currents-nit-trichy',
 			'overview' => '
-				<p>In the age of smart appliances, the everyday life of one and all have begun to change to a simple and more comfortable living. In this age of robotic vacuum cleaners to on-the-move refrigerators, robots have moved into our lives. These robots work on the basis of human interaction, a prominent one being Gesture Control. With a flick of your fingers, these bots arise to do your bidding. CURRENTS’19 presents a comprehensive workshop into this mesmerizing and magical world of Gesture Controlled Robotics starting from understanding the concepts of these robots to its control through hand gestures</p>',
+				<p>In the age of smart appliances, the everyday life of one and all have begun to change to a simple and more comfortable living. In this age of robotic vacuum cleaners to on-the-move refrigerators, robots have moved into our lives. These robots work on the basis of human interaction, a prominent one being Gesture Control. With a flick of your fingers, these bots arise to do your bidding. CURRENTS’19 presents a comprehensive workshop into this mesmerizing and magical world of Gesture Controlled Robotics starting from understanding the concepts of these robots to its control through hand gestures</p>
+				<strong>Course Content</strong>
+				<ul>
+					<li>Introduction to Robotics </li>
+					<li>Overview of microcontrollers</li>
+					<li>Control of motors using H-bridge</li>
+					<li>USART communication </li>
+					<li>Implementation of digital PID controllers</li>
+					<li>Calibrating accelerometers</li>
+					<li>Fabrication of a differential drive robot</li>
+					<li>Integration of the different modules</li>
+				</ul>
+				',
 			'contact' => '
 				<p>Ananda Rangan<br>+91 94877 30712<p>
 				<p>Bhavya<br>+91 94006 14389</p>',
@@ -227,7 +239,19 @@ Route::get('/workshops/pcb', function() {
 					
 				<p>CURRENTS’19 presents the workshop on PCB design, a comprehensive workshop 
 				covering topics right from designing a schematic to getting the PCB layout 
-				printed from a manufacturer</p>',
+				printed from a manufacturer</p>
+
+				<strong>Course Content</strong>
+				<ul>
+					<li>Overview of the Printed Circuit Board.</li>
+					<li>Introduction to schematic design using a CAD software</li>
+					<li>Designing a layout of Printed Circuit Boards</li>
+					<li>Utilizing features of layers, traces, ratsnest lines and vias in Printed Circuit Boards</li>
+					<li>Manual routing vs Autorouting in Printed Circuit Boards </li>
+					<li>Gerber file synthesis </li>
+				</ul>
+
+				',
 			'contact' => '
 				<p>Laxman<br>+91 94872 25817</p>
 				<p>Nithin<br>+91 99401 58850</p>',
@@ -254,7 +278,19 @@ Route::get('/workshops/python', function() {
 			'link' => 'https://www.townscript.com/e/python-workshop-currents-nit-trichy',
 			'overview' => '
 				<p>
-				Soaring high above all other object-oriented programming language due to its elegant code syntax, it’s not surprising for Python to be preferred by tech giants such as Google, YouTube and Quora. With a plethora of open source libraries available for applications in data analysis and web development to name a few, python is versatile to meet the requirements of any coder. CURRENTS’19 presents its workshop to cover basics of programming in Python to kick start your venture into the amazing world of popular coding.</p>',
+				Soaring high above all other object-oriented programming language due to its elegant code syntax, it’s not surprising for Python to be preferred by tech giants such as Google, YouTube and Quora. With a plethora of open source libraries available for applications in data analysis and web development to name a few, python is versatile to meet the requirements of any coder. CURRENTS’19 presents its workshop to cover basics of programming in Python to kick start your venture into the amazing world of popular coding.</p>
+				<strong>Course Content</strong>
+				<ul>
+				<li>Introduction to Python</li>
+				<li>Basic Data types</li>
+				<li>Control Flow</li>
+				<li>Core Data structures</li>
+				<li>Functions</li>
+				<li>Classes and Objects</li>
+				<li>Module structuring</li>
+				<li>File handling </li>
+				</ul>
+				',
 			'contact' => '
 				<p>Harinaath Gobi<br>+91 82201 08895</p>
 				<p>Vivek<br>+91 96001 33170</p>',
@@ -282,7 +318,21 @@ Route::get('/workshops/ar', function() {
 				<p>
 				Augmented reality made its debut with Google glasses back in 2013.</p>
 <p>
-However, the real flare for the innovation began with Niantic’s launch of Pokémon GO that captivated the hearts of young and old in 2016. The interactive gameplay soared above others due to its application of augmented reality enlivening the reality we live in. For those fascinated by this technology, CURRENTS’19 presents a workshop on implementing augmented reality through OpenGL.</p>',
+However, the real flare for the innovation began with Niantic’s launch of Pokémon GO that captivated the hearts of young and old in 2016. The interactive gameplay soared above others due to its application of augmented reality enlivening the reality we live in. For those fascinated by this technology, CURRENTS’19 presents a workshop on implementing augmented reality through OpenGL.</p>
+
+				<strong>Course Content</strong>
+				<ul>
+					<li>Basics of Augemented Reality </li>
+					<li>Introduction to OpenGL module on Python</li>
+					<li>Transformations and Coordinate systems</li>
+					<li>Introduction to AuRuco markers</li>
+					<li>Model Loading </li>
+					<li>Implementation of AR</li>
+
+
+
+				</ul>
+',
 			'contact' => '
 				<p>Nithin<br>+91 99401 58850</p>
 				<p>Vivek<br>+91 96001 33170</p>',
@@ -310,7 +360,17 @@ Slot 2 : 01:30 PM - 04:30 PM - FEBRUARY 17th 2019<br>',
 			'link' => 'https://www.townscript.com/e/image-processing-workshop-currents-nit-trichy',
 			'overview' => '
 				<p>
-				In the age Creative Instagram filters to safety features using facial recognition, signal processing dealing with the manipulation of 2 dimensional digital images has become one of the current trendy technologies. CURRENTS’19 presents the startup pack to the world of Image Processing through the Python programming language. The workshop will cover all that’s needed to code and implement your very own image processing application for human interaction with your device.</p>',
+				In the age Creative Instagram filters to safety features using facial recognition, signal processing dealing with the manipulation of 2 dimensional digital images has become one of the current trendy technologies. CURRENTS’19 presents the startup pack to the world of Image Processing through the Python programming language. The workshop will cover all that’s needed to code and implement your very own image processing application for human interaction with your device.</p>
+
+				<strong>Course Content</strong>
+				<ul>
+					<li>Basics of Image Processing </li>
+					<li>Introduction to OpenCV module on Python</li>
+					<li>Edge detection and image enhancement</li>
+					<li>Centroids and Contours</li>
+					<li>Interfacing python with 3rd party applications</li>
+				</ul>
+				',
 			'contact' => '
 				<p>Harinaath Gobi<br>+91 82201 08895</p>
 				<p>Vivek<br>+91 96001 33170</p>',
@@ -325,7 +385,56 @@ Slot 2 : 01:30 PM - 04:30 PM - FEBRUARY 17th 2019<br>',
 });
 
 Route::get('/workshops/embedded',function(){
-	return view('19.coming_soon');
+	$arr = ['title' => 'EMBEDDED SYSTEMS',
+			'bg' => 'es.jpg',
+			'duration' => '15 HOURS',
+			'cost' => '2100/- for a Team',
+			'date' => '<br>16th FEBRUARY 2019, <br> 17th FEBRUARY 2019',
+			'venue' => 'Orion NIT Trichy',
+			'team_max' => 'This is an individual workshop.',
+			'timings' => '09:30 AM - 04:30 PM<br>',
+			'link' => 'https://www.townscript.com/e/embedded-systems-currents-nit-trichy',
+			'overview' => '
+				<p>Internet of Things is becoming ubiquitous with edge sensor nodes getting more and 
+				more intelligent, capable to transmit information directly to a cloud and get 
+				controlled/actuated from the cloud.</p>
+				
+				<p>This hands-on workshop covers the architecture of TI CC3200, which is a wireless 
+				micro controller and first in the industry to evolve into a single microcontroller 
+				programmable to wireless connectivity(Wi-Fi). </p>
+				<p>The workshop is tailored to meet the need of engineering students to get very good 
+				exposure to internet enabled systems and their applications.</p>
+
+				<p>Each team should have at least one laptop.</p>
+
+				Laptop requirements : <br>
+					1. OS with Windows 7 and above <br>
+					2. Minimum 1GB RAM <br>
+					3.Minimum disk space of 2GB(4GB recommended). <br>
+					4.Smart Phone with a data pack. <br><br>
+
+				<strong>Course Content</strong>
+				<ul>
+					<li>Introduction to Embedded C</li>
+					<li>Embedded C constructs and Data Formats</li>
+					<li>Overview of Embedded systems </li>
+					<li>General input and output </li>
+					<li>Mapping microcontroller’s architecture to Embedded C </li>
+					<li>Interrupts, Timers and serial communication </li>
+					<li>PWM using timers</li>
+					<li>Serial Peripheral Interface</li>
+				</ul>
+					',
+			'contact' => '
+				<p>Laxman<br>+91 94872 25817</p>
+				<p>Vijay<br>+91 73589 55699</p>',
+			'color' => 'black',
+			'talign' => 'left',
+			'team_spec' => 'A Team can consist of three members.',
+			'prereq' => false,
+			'slots' => false
+		];
+	return view('19.workshop', $arr);
 });
 
 Route::get('/workshops/renewable', function() {
@@ -339,7 +448,18 @@ Route::get('/workshops/renewable', function() {
 			'timings' => '09:30 AM - 04:30 PM<br>',
 			'link' => 'https://www.townscript.com/e/renewable-energy-systems-currents-nit-trichy',
 			'overview' => '
-				<p>Dwindling coal reserves coupled with the rising awareness about pollution, the shift in interest towards renewable energy was inevitable. In the crude oil industry, the Indian Government has declared that initiatives have been taken to change one-third of the diesel and petrol vehicles to electric by 2030. These developments point towards a promising change for a clean and green Earth in the future. To equip you, the future citizens of the country for this shift, we at CURRENTS’19 present to you a starter pack to kickstart your adventure in the world of renewable energy</p>',
+				<p>Dwindling coal reserves coupled with the rising awareness about pollution, the shift in interest towards renewable energy was inevitable. In the crude oil industry, the Indian Government has declared that initiatives have been taken to change one-third of the diesel and petrol vehicles to electric by 2030. These developments point towards a promising change for a clean and green Earth in the future. To equip you, the future citizens of the country for this shift, we at CURRENTS’19 present to you a starter pack to kickstart your adventure in the world of renewable energy</p>
+
+
+				<strong>Course Content</strong>
+				<ul>
+					<li>Introduction to PV and Power Technologies </li>
+					<li>Generation of PV characteristics using MATLAB script</li>
+					<li>Introduction to power converters</li>
+					<li>Design of power converters in MATLAB/Simulink</li>
+					<li>Tour of the Grid connected PV array setup by the NIT Trichy Administration</li>
+				</ul>
+				',
 			'contact' => '
 				<p>Laxman<br>+91 94872 25817</p>
 				<p>Aishwarya<br>+91 94872 60290</p>',
@@ -364,7 +484,20 @@ Route::get('/workshops/touchpad', function() {
 			'link' => 'https://www.townscript.com/e/touch-pad-workshop-currents-nit-trichy',
 			'overview' => '
 				<p>It’s no secret that companies strive to reach beyond their peaks for bigger and better products, the smartphone industry being no less demanding. The striking features of smart phones mainly lies with its touchscreen. Apart from its display, the precision with which the human input is being received is what sets the mark. Do you have the curiosity to understand the concepts under this phenomenal concept? Come join us in CURRENTS’19 for the understanding and implementation of touchpads in your projects!
-</p>',
+</p>
+
+				<strong>Course Content</strong>
+				<ul>
+				<li>Overview of microcontrollers</li>
+				<li>Basics of Arduino programming</li>
+				<li>Basics of GPIO pins </li>
+				<li>Basics of serial communication</li>
+				<li>Interfacing modules to the microcontroller</li>
+				<li>Working of touchpads </li>
+				<li>Displaying real-time input on Arduino Plotter</li>
+				</ul>
+
+				',
 			'contact' => '
 				<p>Ananda Rangan<br>+91 94877 30712<p>
 				<p>Amritha<br>+91 75500 00647</p>',
