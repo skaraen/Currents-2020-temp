@@ -31,3 +31,31 @@ img {
     width: auto;
     display: inline;
 }
+
+.cnt {
+    color: white;
+    text-align: left; 
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 1.3em;
+}
+
+@media only screen and (max-width: 600px) {
+    img {
+        height: 250px;
+        padding: 2%;
+        width: auto;
+        display: inline;
+    }
+
+    .cnt {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    .img-link {
+        opacity: 1;
+    }
+    .img-link:hover {
+        transform: none;
+    }
+}

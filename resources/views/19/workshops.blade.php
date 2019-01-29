@@ -8,6 +8,7 @@
 @endsection
 @section('content')
 <section class="main_page_str">
+	<br><br>
 	<div class="title">Workshops</div>
 	<div class="content">
 		<a href="{{ env('APP_BASE_URL') }}/workshops/ar"><img class="img-link" src="{{asset('images/augmented_reality.png')}}"></a>
@@ -21,7 +22,7 @@
 
 	</div>
 	<br><br>
-	<div style="color: white; text-align: justify; margin-left: 25%;">
+	<div class="cnt">
 		<h1>Procedure to avail On Duty</h1>
 		<ul>
 			<li>Once applied for a workshop, mail us the booking ID along with the list of participants.</li>
