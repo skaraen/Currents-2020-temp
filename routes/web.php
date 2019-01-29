@@ -129,7 +129,7 @@ Route::get('/volts/madurai', function() {
 		];
 	return view('19.gate', $arr);
 });
-Route::get('/volts/chennai', function() {
+/*Route::get('/volts/chennai', function() {
 	$arr = ['city' => 'Chennai',
 			'college' => 'Central Leather Research Institute',
 			'area' => 'Chennai',
@@ -143,7 +143,7 @@ Route::get('/volts/chennai', function() {
 		];
 	return view('19.gate', $arr);
 });
-
+*/
 Route::get('/volts/coimbatore', function() {
 	$arr = ['city' => 'Coimbatore',
 			'college' => 'Karpagam Academy of Higher Education',
@@ -391,7 +391,7 @@ Route::get('/workshops/embedded',function(){
 			'cost' => '2100/- for a Team',
 			'date' => '<br>16th FEBRUARY 2019, <br> 17th FEBRUARY 2019',
 			'venue' => 'Orion NIT Trichy',
-			'team_max' => 'This is an individual workshop.',
+			'team_max' => 'A Team can consist of maximum 3 members.',
 			'timings' => '09:30 AM - 04:30 PM<br>',
 			'link' => 'https://www.townscript.com/e/embedded-systems-currents-nit-trichy',
 			'overview' => '

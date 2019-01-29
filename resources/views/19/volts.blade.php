@@ -124,7 +124,6 @@ html{scroll-behavior:smooth}
 		<a href="{{ env('APP_BASE_URL') }}/volts/madurai"><img class="img-link smaller" src="{{asset('images/madurai-round.png')}}"></a>
 		<a href="{{ env('APP_BASE_URL') }}/volts/tirunelveli"><img class="img-link smaller" src="{{asset('images/tirunelveli-round.png')}}"></a>
 		<a href="{{ env('APP_BASE_URL') }}/volts/salem"><img class="img-link smaller" src="{{asset('images/salem-round.png')}}"></a>
-		<a href="{{ env('APP_BASE_URL') }}/volts/chennai"><img class="img-link smaller" src="{{asset('images/chennai-round.png')}}"></a>
 		<!--</div>-->
 	</div>
 </div>
