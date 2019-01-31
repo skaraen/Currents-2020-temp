@@ -1,0 +1,67 @@
+body {
+background: url('../images/workshops_main.jpg');
+background-size: auto 100%;
+background-attachment: fixed;
+color: white;
+}
+.title {
+text-align: center;
+color: white;
+font-size: 3rem;
+padding-top: 8%;
+}
+.content {
+width: 100%;
+margin: auto;
+text-align: center;
+}
+.event {
+padding: 5%;
+background-color: rgba(0, 0, 0, 0.3);
+}
+img {
+height: 300px;
+padding: 2%;
+width: auto;
+display: inline;
+}
+.cnt {
+color: white;
+text-align: left;
+margin-left: 20%;
+margin-right: 20%;
+font-size: 1.3em;
+}
+.button {
+background-color: #d01c68;
+border: none;
+color: white;
+padding: 2px 2px;
+text-align: center;
+display: block;
+cursor: pointer;
+font-size: 1em;
+margin: auto;
+width: 10%;
+}
+@media only screen and (max-width: 600px) {
+img {
+height: 250px;
+padding: 2%;
+width: auto;
+display: inline;
+}
+.cnt {
+margin-left: 4%;
+margin-right: 4%;
+}
+.img-link {
+opacity: 1;
+}
+.img-link:hover {
+transform: none;
+}
+.button {
+width: 20%;
+}
+}
