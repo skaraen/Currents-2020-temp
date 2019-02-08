@@ -11,14 +11,14 @@
 	<br><br>
 	<div class="title">Workshops</div>
 	<div class="content">
-		<a href="{{ env('APP_BASE_URL') }}/workshops/ar"><img class="img-link" src="{{asset('images/augmented_reality.png')}}"></a>
 		<a href="{{ env('APP_BASE_URL') }}/workshops/touchpad"><img class="img-link" src="{{asset('images/touchpad.png')}}"></a>
+		<a href="{{ env('APP_BASE_URL') }}/workshops/ar"><img class="img-link" src="{{asset('images/augmented_reality.png')}}"></a>
 		<a href="{{ env('APP_BASE_URL') }}/workshops/gcr"><img class="img-link" src="{{asset('images/gcr.png')}}"></a>
 		<a href="{{ env('APP_BASE_URL') }}/workshops/ip"><img class="img-link" src="{{asset('images/image_processing.png')}}"></a>
 		<a href="{{ env('APP_BASE_URL') }}/workshops/pcb"><img class="img-link" src="{{asset('images/pcb.png')}}"></a>
 		<a href="{{ env('APP_BASE_URL') }}/workshops/python"><img class="img-link" src="{{asset('images/python.png')}}"></a>
 		<a href="{{ env('APP_BASE_URL') }}/workshops/renewable"><img class="img-link" src="{{asset('images/renewable_energy.png')}}"></a>
-		<a href="{{ env('APP_BASE_URL') }}/workshops/embedded"><img class="img-link" style="filter: grayscale(80%);" src="{{asset('images/embedded_systems.png')}}"></a>
+		<a href="{{ env('APP_BASE_URL') }}/workshops/embedded"><img class="img-link" style="filter: grayscale(70%);" src="{{asset('images/embedded_systems.png')}}"></a>
 
 	</div>
 	<br><br>

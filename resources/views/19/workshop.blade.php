@@ -1,6 +1,6 @@
 <title>{{ $title }} | Currents '19</title>
-    <link rel="shortcut icon" href="{{ asset('images/title_bar.png') }}" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="shortcut icon" href="{{ asset('images/title_bar.png') }}" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
 	window.onscroll = () => {
 		const nav = document.querySelector('nav');
@@ -173,7 +173,18 @@ html {
 		<div>&nbsp;</div>
 		<div class="title"><div>{{ $title }}<br><br> {!! $date !!}</div></div>
 		<div>
-			<button type="button" onclick="location='{{ $link }}'" class="_button tsbutton" >Register Now !</button>
+			<button type="button"
+			@if($title != "TOUCHPAD")
+			disabled
+			style="background-color: grey"
+			@endif
+			onclick="location='{{ $link }}'" class="_button tsbutton" >
+			@if($title != "TOUCHPAD")
+			Registrations Closed
+			@else
+			Register Now !
+			@endif
+			</button>
 		</div>
 		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		<div class="content" id="grid">
@@ -227,7 +238,17 @@ html {
 				<p>You can also reach out to us at <a href="mailto:eee.currents@gmail.com">eee.currents@gmail.com</a></p>
 			</section>
 			<section id="register">
-				<button onclick="location='{{ $link }}'" class="tsbutton">Register Now</button><noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="//www.townscript.com/organizer-popup-widget/townscript-organizer-widget.nocache.js" type="text/javascript"></script>
+				<button onclick="location='{{ $link }}'" class="tsbutton"
+				@if($title != "TOUCHPAD")
+				disabled
+				style="background-color: grey"
+				@endif>
+				@if($title != "TOUCHPAD")
+				Registrations Closed
+				@else
+				Register Now !
+				@endif
+				</button><noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="//www.townscript.com/organizer-popup-widget/townscript-organizer-widget.nocache.js" type="text/javascript"></script>
 			</section>
 		</div>
 		
