@@ -476,7 +476,7 @@ Route::get('/workshops/touchpad', function() {
 	$arr = ['title' => 'TOUCHPAD',
 			'bg' => 'touchpad.jpg',
 			'duration' => '6 HOURS',
-			'cost' => '2,100/- for a Team',
+			'cost' => '2,400/- for a Team',
 			'date' => '15th FEBRUARY 2019',
 			'venue' => 'Orion, NIT Trichy',
 			'team_max' => 'A Team of maximum 3 members.',

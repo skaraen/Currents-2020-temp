@@ -68,7 +68,7 @@
 					</div>
 				</div>
 				<br>
-				<button type="button" onclick="location='http://bit.do/CodeCurrents19'" class="button" >Register</button>
+				<button type="button" onclick="location='https://goo.gl/wTfYnL'" class="button" >Register</button>
 				<br>
 			</div>
 		</div>
@@ -147,7 +147,7 @@
 						<strong><a target="_blank" href="/download/Simulacrum_rules.pdf">Rule Book</a></strong>
 					</div>
 				</div><br>
-				<button type="button" onclick="location='http://bit.do/Colloqium19'" class="button" >Register</button>
+				<button type="button" disabled class="button" >Register</button>
 				<br>
 			</div>
 		</div>
