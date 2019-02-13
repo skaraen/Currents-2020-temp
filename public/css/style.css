@@ -11,13 +11,17 @@ body {
 	background-color: : #1c1b1b;
 }
 
+#container{
+	display: flex;
+	flex-direction: column;
+	flex: 1 0 auto;
+}
+#bs-example-navbar-collapse-1 {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 1.42857143;
+}
 
-
-
-
-/*--------------------*/
-/* EVENT SCHEDULE */
-/*--------------------*/
 
 #mu-schedule {
 	display: inline;

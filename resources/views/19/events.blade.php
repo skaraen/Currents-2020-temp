@@ -26,8 +26,11 @@
 						The paper should be submitted in PDF format (with an A4 page size) which  should necessarily have an abstract and its first title should necessarily be "Introduction"; the last two titles of the paper should necessarily be "Conclusion" and "References", and the abstract should be brief containing at most 300 words. The limit on the number of pages of full length paper is at most 10 sides (including tables, figures, references etc.). Do not deviate from this format.  which should contain a general summary of the paper stating the problem statement, recent works, the proposed methodology and major contribution of the paper.
 					</div>
 					<div class="col-sm">
+						<strong>Date :</strong> Feb 15th, 2019<br><br>
+						<strong>Time :</strong> 02:00 pm<br><br>
+						<strong>Venue :</strong> A11<br><br>
 						<strong>Type of event :</strong> Offline <br><br>
-						<strong>Prize :</strong> Prizes worth 10,000 /-<br><br>
+						<strong>Prize :</strong> Prizes worth 10,000 /-<br>
 						<strong>Special prize:</strong>
 						The Top 10 entries will get a chance to present their papers during CURRENTS'19. The top 3 winners will get their papers published in "International Journal of Students' Research in Technology and Management (IJSRTM)".
 						The shortlisted teams would be invited to present during CURRENTS’19 at NIT Trichy. These teams will have to confirm their participation by remitting a small fee which will be informed later through mail.<br><br>
@@ -62,8 +65,8 @@
 					<div class="col-sm">
 						<strong>Type of event :</strong> Online<br><br>
 						<strong>Prize :</strong> Prizes worth 10,000 /-<br><br>
-						<strong>Date of event :</strong> Feb 10th, 2019<br><br>
-						<strong>Time :</strong> 6:30 pm – 9:30 pm<br><br>
+						<strong>Date :</strong> Feb 16th, 2019<br><br>
+						<strong>Time :</strong> 6:30 pm – 8:30 pm<br><br>
 						<strong><a target="_blank" href="/download/CodeCurrents_rules.pdf">Rule Book</a></strong>
 					</div>
 				</div>
@@ -115,6 +118,9 @@
 						"Surprise" yet anybody can do it!
 					</div>
 					<div class="col-sm">
+						<strong>Date :</strong> Feb 16th, 2019<br><br>
+						<strong>Time :</strong> 05:00 pm<br><br>
+						<strong>Venue :</strong> Lecture Hall Complex 09<br><br>
 						<strong>Type of event :</strong> Offline <br><br>
 						<strong>Prize :</strong> Prizes worth 5,000 /-<br><br>
 						<strong><a target="_blank" href="/download/Dhruva_rules.pdf">Rule Book</a></strong>
@@ -142,6 +148,9 @@
 						Problem statements involving load flow, power electronics and uncommon     devices (eg DMOS). Can be simulation/coding/combination of both.
 					</div>
 					<div class="col-sm">
+						<strong>Date :</strong> Feb 17th, 2019<br><br>
+						<strong>Time :</strong> 09:00 am<br><br>
+						<!--<strong>Venue :</strong> A11<br>-->
 						<strong>Type of event:</strong> Offline<br><br>
 						<strong>Prize :</strong> Prizes worth 6,000/-<br><br>
 						<strong><a target="_blank" href="/download/Simulacrum_rules.pdf">Rule Book</a></strong>
@@ -176,6 +185,9 @@
 						9. The decision of the judges is final.<br/>
 					</div>
 					<div class="col-sm">
+						<strong>Date :</strong> Feb 17th, 2019<br><br>
+						<strong>Time :</strong> 11:30 am<br><br>
+						<strong>Venue :</strong> DC Machines Lab, EEE Department<br><br>
 						<strong>Type of event:</strong> Offline<br><br>
 						<strong>Prize :</strong> Prizes worth 5,000/-<br><br>
 						<strong><a target="_blank" href="/download/LineFollower_rules.pdf">Rule Book</a></strong>

@@ -32,6 +32,9 @@
                                 <div class="h_menu_list" id="about" onclick="location.href='/about'">
                                     About
                                 </div>
+                                <div class="h_menu_list" id="about" onclick="location.href='/schedule'">
+                                    Schedule
+                                </div>
                                 <div class="h_menu_list" id="events" onclick="location.href='/events'">
                                     Events
                                 </div>
@@ -84,6 +87,9 @@
                         <div class="sn_log_text sn_logo_">urrents</div>
                     </div>
                     <div class="sn_menu_list_container">
+                        <div class="h_menu_list" id="about" onclick="location.href='/schedule'">
+                                    Schedule
+                        </div>
                         <div class="sn_menu_list" id="sn_tronicals" onclick="location.href='/tronicals'">
                             Tronicals
                         </div>

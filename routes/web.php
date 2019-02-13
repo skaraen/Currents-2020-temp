@@ -24,6 +24,9 @@ Route::get('/hospitality',function(){
 Route::get('/sponsors',function(){
 	return view('19.coming_soon');
 });
+Route::get('/schedule', function(){
+	return view('19.schedule');
+});
 Route::get('/about',function(){
 	return view('19.coming_soon');
 });
@@ -36,11 +39,9 @@ Route::get('/events', function () {
 Route::get('/workshops',function(){
 	return view('19.workshops');
 });
-Route::get('/schedule', function () {
-	return view('19.coming_soon');
-});
+
 Route::get('/contact', function(){
-	return view('19.coming_soon');
+	return view('18.contact');
 });
 Route::get('/magazines/{file}', function($file_name) {
 	$file_path = public_path('magazines/'.$file_name);
