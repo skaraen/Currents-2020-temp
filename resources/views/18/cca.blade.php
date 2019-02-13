@@ -164,7 +164,7 @@ html{scroll-behavior:smooth}
     </section>
     <section id="register">
       <h1 style="text-align: center; font-size: 2.5em;">So what are you waiting for? Come join us and be the spark to Currents!</h1>
-      <button type="button" onclick="location.href = API_BASE_URL + '/cca/apply'" class="button" >Register</button>
+      <button type="button" disable onclick="location.href = API_BASE_URL + '/cca/apply'" class="button" >Registrations Closed</button>
     </section>
   </div>
 </div>
