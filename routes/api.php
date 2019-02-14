@@ -6,6 +6,7 @@ use Sangria\JSONResponse;
 use Sangria\IMAPAuth;
 use App\CcaDetails;
 use App\EurekaDetails;
+use App\Feedback;
 
 /*
 |--------------------------------------------------------------------------
@@ -164,6 +165,28 @@ Route::post('/eureka/apply', function(Request $request) {
         $eureka_registration->abstract = $abstract;
 
         $eureka_registration->save();
+
+        $status_code = 200;
+        $response = "OK";
+
+        return JSONResponse::response($status_code, $response);
+});
+
+Route::post('/feedback', function(Request $request) {
+        $feedback = new Feedback();
+        $feedback->c_id     = $request->input('c_id');
+        $feedback->workshop = $request->input('workshop');
+        $rating   = $request->input('rating');      
+        $feedback->rating_1 = $rating['rating_1'];
+        $feedback->rating_2 = $rating['rating_2'];
+        $feedback->rating_3 = $rating['rating_3'];
+        $feedback->rating_4 = $rating['rating_4'];
+        $feedback->rating_5 = $rating['rating_5'];
+        $feedback->rating_6 = $rating['rating_6'];
+        $feedback->aspect = $request->input('aspect');
+        $feedback->improvements = $request->input('improvements');
+        $feedback->howknow = $request->input('howknow');
+        $feedback->save();
 
         $status_code = 200;
         $response = "OK";

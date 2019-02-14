@@ -41,7 +41,7 @@ Route::get('/workshops',function(){
 });
 
 Route::get('/contact', function(){
-	return view('18.contact');
+	return view('19.coming_soon');
 });
 Route::get('/magazines/{file}', function($file_name) {
 	$file_path = public_path('magazines/'.$file_name);
@@ -514,4 +514,8 @@ Route::get('/workshops/touchpad', function() {
 
 Route::get('/eureka/register', function() {
 	return view('19.eureka_register');
+});
+
+Route::get('/feedback', function() {
+	return view('19.feedback');
 });
