@@ -156,7 +156,7 @@
 						<strong><a target="_blank" href="/download/Simulacrum_rules.pdf">Rule Book</a></strong>
 					</div>
 				</div><br>
-				<button type="button" disabled class="button" >Register</button>
+				<button type="button" onclick="location.href='http://goo.gl/Ww9uaE'" class="button" >Register</button>
 				<br>
 			</div>
 		</div>
