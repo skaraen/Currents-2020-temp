@@ -16,7 +16,7 @@ Route::get('/currents', function () {
 return redirect('/');
 });
 Route::get('/', function () {
-return view('19.home');
+return view('20.countdown');
 });
 Route::get('/hospitality',function(){
 	return view('19.hospitality');
