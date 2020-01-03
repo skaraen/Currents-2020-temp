@@ -1,7 +1,6 @@
 var canvas = document.getElementById('canvas-element');
 var ctx = canvas.getContext('2d');
 var countDownDate = new Date('Feb 14, 2020 12:00:00');
-setInterval(drawClock, 10);
 
 function deg2rad(degree) {
 	var factor = Math.PI / 180;
@@ -18,7 +17,7 @@ function between(x, min, max) {
 	return x >= min && x <= max;
 }
 
-function drawClock() {
+var drawClock = setInterval(function() {
 	canvas.width = canvas.parentElement.clientWidth;
 	canvas.height = canvas.parentElement.clientHeight;
 	ctx.strokeStyle = '#ffffff';
@@ -29,6 +28,10 @@ function drawClock() {
 
 	var now = new Date().getTime();
 	var timeLeft = countDownDate - now;
+
+	if (timeLeft <= 0) {
+		clearInterval(drawClock);
+	}
 
 	var days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
 	var hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -105,4 +108,4 @@ function drawClock() {
 	}
 
 	ctx.fillText(text, xpos, ypos);
-}
+}, 10);
