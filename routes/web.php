@@ -519,3 +519,6 @@ Route::get('/eureka/register', function() {
 Route::get('/feedback', function() {
 	return view('19.feedback');
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

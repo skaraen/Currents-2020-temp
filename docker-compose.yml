@@ -1,0 +1,40 @@
+version: '3.5'
+
+services:
+  currents-app:
+    build:
+      context: '.'
+      args:
+        uid: ${UID}
+    container_name: currents-app
+    environment:
+      - APACHE_RUN_USER=#${UID}
+      - APACHE_RUN_GROUP=#${UID}
+    volumes:
+      - .:/var/www/html
+    ports:
+      - 8001:80
+    networks:
+      backend:
+        aliases:
+          - currents-app
+
+  mysql-db:
+    image: mysql:5.7
+    container_name: mysql-db_currents
+    volumes:
+      - ./run/var:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=securerootpassword
+      - DB_HOST=mysql-db
+      - MYSQL_DATABASE=currents
+      - MYSQL_USER=dbuser
+      - MYSQL_PASSWORD=secret
+    networks:
+      backend:
+        aliases:
+          - db
+
+networks:
+  backend:
+    name: backend-network
