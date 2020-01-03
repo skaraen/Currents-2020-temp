@@ -8,67 +8,6 @@
 		<title>Currents' 20</title>
 		<!-- Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-		<!-- Styles -->
-		<!-- <style>
-		html, body, .fillParent {
-    		height: 100%;
-    		width: 100%;
-			overflow: hidden;
-		}
-
-		.header, .footer{
-    		height:50px;
-		}
-
-		.middle{
-    		height:calc(100% - 100px);
-		}
-
-		#links-container > a {
-			height:50px; 
-			width:100%;	
-			font-family: 'Raleway', sans-serif;	
-			color: white;
-			padding: 0px 20px 0px 30px;
-			font-size: 20px;
-			font-weight: 600;
-			letter-spacing: .5rem;
-			text-decoration: none;
-			text-transform: uppercase;
-		}
-
-		#links-container {
-			/* border: white dotted 2px; */
-			padding-top: 10px;
-		}
-
-		body {
-			background: url('../images/Currents20_files/countdown_bg.png');
-			background-size: 100% 101%;
-			background-repeat: no-repeat;
-		}
-		
-		@media screen and (max-width: 500px) {
-  		body {
-		background : url('images/Currents20_files/countdown_bg_mob.png');
-		background-size : 105% 105%;
-		background-repeat : no-repeat;
-		}
-
-		#links-container > a {
-			height:50px; 
-			width:100%;	
-			font-family: 'Raleway', sans-serif;	
-			color: white;
-			padding: 0px 20px 0px 30px;
-			font-size: 15px;
-			font-weight: 600;
-			letter-spacing: .5rem;
-			text-decoration: none;
-			text-transform: uppercase;
-		}
-		}
-		</style> -->
 		<link rel="stylesheet" type="text/css" media="screen" href="css/countdown.css" />
 	</head>
 	<body>

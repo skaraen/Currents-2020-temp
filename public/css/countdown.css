@@ -34,13 +34,13 @@ body,
 
 body {
 	background: url('../images/Currents20_files/countdown_bg.png');
-	background-size: 100% 101%;
+	background-size: 102% 102%;
 	background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 720px) {
 	body {
-		background: url('images/Currents20_files/countdown_bg_mob.png');
+		background: url('../images/Currents20_files/countdown_bg_mob.png');
 		background-size: 105% 105%;
 		background-repeat: no-repeat;
 	}
