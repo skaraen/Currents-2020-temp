@@ -20,11 +20,11 @@ function between(x, min, max) {
 var drawClock = setInterval(function() {
 	canvas.width = canvas.parentElement.clientWidth;
 	canvas.height = canvas.parentElement.clientHeight;
-	ctx.strokeStyle = '#ffffff';
+	ctx.strokeStyle = '#00F8F2';
 	ctx.lineWidth = 15;
 	ctx.lineCap = 'round';
 	ctx.shadowBlur = 15;
-	ctx.shadowColor = '#ffffff';
+	ctx.shadowColor = '#00F8F2';
 
 	var now = new Date().getTime();
 	var timeLeft = countDownDate - now;
@@ -44,7 +44,7 @@ var drawClock = setInterval(function() {
 	if (canvas.width >= canvas.height) {
 		min = canvas.height;
 		max = canvas.width;
-		xpos = 0.75 * max;
+		xpos = 0.78 * max;
 		ypos = 0.5 * min;
 		flag = 0;
 	} else {
@@ -55,10 +55,10 @@ var drawClock = setInterval(function() {
 		flag = 1;
 	}
 
-	if (max / 2 >= min) {
+	if (0.4 * max >= min) {
 		radius = min;
 	} else {
-		radius = max / 2;
+		radius = 0.4 * max;
 	}
 
 	var cwidth = canvas.width;
@@ -98,7 +98,7 @@ var drawClock = setInterval(function() {
 
 	var text = days + 'd ' + hours + 'h ' + minutes + 'm ' + seconds + 's to go...';
 	ctx.font = fontSize + 'px Raleway';
-	ctx.fillStyle = '#ffffff';
+	ctx.fillStyle = '#00F8F2';
 
 	if (radius <= 265) {
 		text = days + 'd ' + hours + 'h ' + minutes + 'm ' + seconds + 's';

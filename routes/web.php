@@ -37,7 +37,7 @@ Route::get('/events', function () {
 	return view('19.events');
 });
 Route::get('/workshops',function(){
-	return view('19.workshops');
+	return view('19.coming_soon');
 });
 
 Route::get('/contact', function(){
@@ -52,7 +52,7 @@ Route::get('/download/{file}', function($file_name) {
 	return response()->file($file_path);
 });
 Route::get('/tronicals', function() {
-	return view('19.tronicals');
+	return view('19.coming_soon');
 });
 #Route::get('/cca', function() {
 #	return view('18.cca');
@@ -61,10 +61,10 @@ Route::get('/tronicals', function() {
 #	return view('18.cca_apply');
 #});
 Route::get('/eureka', function() {
-	return view('19.eureka');
+	return view('20.eureka');
 });
 Route::get('/volts', function() {
-	return view('19.volts');
+	return view('19.coming_soon');
 });
 Route::get('/volts/bengaluru', function() {
 	return view('19.bangalore');
