@@ -3,7 +3,8 @@
 var API_BASE_URL = "{{ env('APP_BASE_URL') }}";
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="{{asset('js/eureka_script.js')}}"></script>
+<!-- <script type="text/javascript" src="{{asset('js/eureka_script.js')}}"></script> -->
+<script type="text/javascript" src="https://currents.nitt.edu/js/eureka_script.js"></script>
 <style>
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
 * {
@@ -164,7 +165,7 @@ margin-left: 34%;
             <textarea placeholder="Abstract*" id="abstract"></textarea>
         </fieldset>
         <fieldset style="padding: 2.5%;">
-            <button name="submit" type="submit" onsubmit="register(); return false;" id="contact-submit" data-submit="...Sending">Submit</button>
+            <button name="submit" type="submit" onclick="register(); return false;" id="contact-submit" data-submit="...Sending">Submit</button>
         </fieldset>
         <fieldset>
             <div id="error" style="font-size: 1.5em; display: hidden;"></div>

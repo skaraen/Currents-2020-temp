@@ -11,6 +11,8 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 <script>
 var API_BASE_URL = "{{ env('APP_BASE_URL') }}";
+//console.log("<?php echo base_path(); ?>");
+//console.log(API_BASE_URL);
 </script>
 <style>
 body {
