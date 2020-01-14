@@ -513,7 +513,7 @@ Route::get('/workshops/touchpad', function() {
 });
 
 Route::get('/eureka/register', function() {
-	return view('19.eureka_register');
+	return view('20.eureka_register');
 });
 
 Route::get('/feedback', function() {

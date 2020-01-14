@@ -114,7 +114,7 @@ margin-left: 34%;
 }
 </style>
 <div class="container">
-    <form id="contact" onsubmit="register(); return false;" action="" method="post">
+    <form id="contact" onsubmit="register(); return false;" action="" method="POST">
         <h3>Eureka</h3>
         <div>&nbsp;</div>
         <fieldset>
