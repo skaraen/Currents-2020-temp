@@ -54,12 +54,12 @@ Route::get('/download/{file}', function($file_name) {
 Route::get('/tronicals', function() {
 	return view('19.coming_soon');
 });
-#Route::get('/cca', function() {
-#	return view('18.cca');
-#});
-#Route::get('/cca/apply', function() {
-#	return view('18.cca_apply');
-#});
+Route::get('/cca', function() {
+	return view('20.cca');
+});
+Route::get('/cca/apply', function() {
+	return view('20.cca_apply');
+});
 Route::get('/eureka', function() {
 	return view('20.eureka');
 });

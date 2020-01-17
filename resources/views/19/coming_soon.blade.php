@@ -75,7 +75,7 @@
 					<a href="/">Home</a>
 					<a href="eureka">Eureka</a>
 					<a href="volts">Volts</a>
-					<a href="tronicals">Tronicals</a>
+					<a href="cca">CCA</a>
 					<a href="workshops">Workshops</a>
 				</div>
 			</div>
