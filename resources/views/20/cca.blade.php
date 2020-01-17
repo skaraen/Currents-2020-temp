@@ -24,7 +24,7 @@ body {
   text-align: center;
   font-weight: bold;
   font-size: 7.5em;
-  padding: 7%;
+  padding: 4%;
   margin-top: 20px;
 }
 
@@ -86,7 +86,7 @@ li a:hover {
 }
 
 section {
-  padding: 10%;
+  padding: 5%;
   line-height: 40px;
 }
 
@@ -130,7 +130,6 @@ html{scroll-behavior:smooth}
         
         <li style="float: right"><a href="#register">Register</a></li>
         <li style="float: right"><a href="#benefits">Benefits</a></li>
-        <li style="float: right"><a href="#what">What is It ?</a></li>
         <li style="float: right"><a href="#about">About</a></li>
         <li><a style="padding: 0; height: 100%"><img src="{{asset('images/logo.jpg')}}"></a></li>
         
@@ -144,22 +143,34 @@ html{scroll-behavior:smooth}
         <p>The Currents Campus Ambassador (CCA) Programme is an initiative of Currents, NIT Trichy where the ambassador from different colleges become one among us and supports us by being a liaison between Currents, NIT Trichy and their college.
         The CCA Programme is a great opportunity to get involved with the National level technical symposium of NIT Trichy and get connected with a lot more people all over the country. You would be the face of Currents, NIT Trichy for your college, and be a bridge in carrying forward our vision to your college.</p>
       </section>
-      <section id="what">
-        <h1> What is CCA ? </h1>
-        <p>The CCA Programme consists of a series of tasks and awards associated with it. As and when the tasks are completed, points are added up and the top performing CCA's are rewarded, developing them holistically.</p>
-      </section>
       <section id="benefits">
-        <h1>Why should you be the Campus Ambassador for Currents?</h1>
+        <h1>Special Privileges for Currents Campus Ambassadors:</h1>
+
+        <h3>Workshops Privileges</h3>
         <ul>
-          <li>Huge Cash Prizes on offer.</li>
-          <li>Official certificate of appreciation from Currents, NIT Trichy.</li>
+          <li>Bring 5 teams/15 individuals: one non-kit based workshop free and ₹300 off in a kit workshop.</li>
+          <li>Bring 10 teams/30 individuals: two non-kit based workshop free and ₹600 off in a kit workshop.</li>
+          <li>Over 50 individuals: three non-kit/ one kit based workshop free.</li>
+        </ul>
+
+        <h3>Accomodation Privileges</h3>
+        <ul>
+          <li>Accommodation is free for CCA</li>
+        </ul>
+
+        <h3>Merchandise Privileges</h3>
+        <ul>
+          <li>Bring 30 individuals for workshop, get a set of CURRENTS merchandise free and food coupons worth ₹300(T-shirt, pendrive, etc)</li>
+          <li>Bring 50 individuals for workshop, get 2 set of CURRENTS merchandise free and food coupons worth ₹500(T-shirt, pendrive, etc)</li>
           <li>Goodies from our sponsors will be provided.</li>
           <li>Concession for our premium workshops to the ambassador and his team.</li>
-          <li>Opportunity to meet our Guest Lecturers and engage in an interactive session with them.</li>
-          <li>Internship opportunities from our sponsors</li>
-          <li>Benefits on services of travel and accomodation.</li>
-          <li>A National level networking with other CCA's and their colleges to get in-depth understanding of cultures across India </li>
         </ul>
+
+        <h3>Certificates</h3>
+        <ul>
+          <li>Certificates will be provided for CURRENTS campus ambassadors</li>
+        </ul>
+
       </div>
     </section>
     <section id="register">
