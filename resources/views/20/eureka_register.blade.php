@@ -4,7 +4,7 @@ var API_BASE_URL = "{{ env('APP_BASE_URL') }}";
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!-- <script type="text/javascript" src="{{asset('js/eureka_script.js')}}"></script> -->
-<script type="text/javascript" src="https://currents.nitt.edu/js/eureka_script.js"></script>
+<script type="text/javascript" src="/js/eureka_script.js"></script>
 <style>
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
 * {
@@ -113,62 +113,72 @@ color:#888;
 label{
 margin-left: 34%;
 }
+#message{
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+#error{
+  display: none;
+}
 </style>
 <div class="container">
     <form id="contact" onsubmit="register(); return false;" action="" method="POST">
         <h3>Eureka</h3>
         <div>&nbsp;</div>
-        <fieldset>
-            <input placeholder="Team Member 1*" id="name_1" type="text" tabindex="1" required autofocus>
-        </fieldset>
-        <fieldset>
-            <input placeholder="Class / Standard*" id="class_1" type="text" tabindex="1" required autofocus>
-        </fieldset>
-        <fieldset>
-            <input placeholder="Contact number of Parent" id="contact_1" type="text" tabindex="1" autofocus>
-        </fieldset>
-        <fieldset>
-            <input placeholder="Team Member 2*" id="name_2" type="text" tabindex="1" required autofocus>
-        </fieldset>
-        <fieldset>
-            <input placeholder="Class / Standard*" id="class_2" type="text" tabindex="1" required autofocus>
-        </fieldset>
-        <fieldset>
-            <input placeholder="Contact number of Parent" id="contact_2" type="text" tabindex="1" autofocus>
-        </fieldset>
-        <fieldset>
-            <input placeholder="School*" id="school" type="text" tabindex="2" required>
-        </fieldset>
-        <fieldset>
-            <input placeholder="School Address*" id="school_address" type="text" tabindex="2" required>
-        </fieldset>
-        <fieldset>
-            <input placeholder="Teacher Coordinator*" id="coordinator" type="text" tabindex="2" required>
-        </fieldset>
-        <fieldset>
-            <input placeholder="Teacher Coordinator Contact Number*" id="phone" type="text" tabindex="2" required>
-        </fieldset>
-        <fieldset>
-            <input placeholder="Email of Teacher Coordinator" id="email" type="text" tabindex="2" required>
-        </fieldset>
-        <fieldset>
-            <select id="theme">
-                <option value="0">Theme</option>
-                <option value="1">Agriculture and Food Security</option>
-                <option value="2">Energy – resources and conservation</option>
-                <option value="3">Disaster management</option>
-                <option value="4">Environmental issues and concerns</option>
-                <option value="5">Health</option>
-            </select>
-        </fieldset>
-        <fieldset>
-            <textarea placeholder="Abstract*" id="abstract"></textarea>
-        </fieldset>
-        <fieldset style="padding: 2.5%;">
-            <button name="submit" type="submit" onclick="register(); return false;" id="contact-submit" data-submit="...Sending">Submit</button>
-        </fieldset>
-        <fieldset>
-            <div id="error" style="font-size: 1.5em; display: hidden;"></div>
+        <div id="form-contents">
+            <fieldset>
+                <input placeholder="Team Member 1*" id="name_1" type="text" tabindex="1" required autofocus>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Class / Standard*" id="class_1" type="text" tabindex="1" required autofocus>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Contact number of Parent" id="contact_1" type="text" tabindex="1" autofocus>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Team Member 2*" id="name_2" type="text" tabindex="1" required autofocus>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Class / Standard*" id="class_2" type="text" tabindex="1" required autofocus>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Contact number of Parent" id="contact_2" type="text" tabindex="1" autofocus>
+            </fieldset>
+            <fieldset>
+                <input placeholder="School*" id="school" type="text" tabindex="2" required>
+            </fieldset>
+            <fieldset>
+                <input placeholder="School Address*" id="school_address" type="text" tabindex="2" required>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Teacher Coordinator*" id="coordinator" type="text" tabindex="2" required>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Teacher Coordinator Contact Number*" id="phone" type="text" tabindex="2" required>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Email of Teacher Coordinator" id="email" type="text" tabindex="2" required>
+            </fieldset>
+            <fieldset>
+                <select id="theme">
+                    <option value="0">Theme</option>
+                    <option value="1">Agriculture and Food Security</option>
+                    <option value="2">Energy – resources and conservation</option>
+                    <option value="3">Disaster management</option>
+                    <option value="4">Environmental issues and concerns</option>
+                    <option value="5">Health</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <textarea placeholder="Abstract*" id="abstract"></textarea>
+            </fieldset>
+            <fieldset style="padding: 2.5%;">
+                <button name="submit" type="submit" onclick="register(); return false;" id="contact-submit" data-submit="...Sending">Submit</button>
+            </fieldset>
+        </div>
+        <fieldset id="error">
+            <div id="message"></div>
+            <button id="accept" type="submit" onclick="redirect(); return false;" id="contact-submit" data-submit="...Sending">Okay</button>
         </fieldset>
     </form>
 </div>

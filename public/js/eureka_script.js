@@ -1,8 +1,8 @@
 function register() {
 	var route = '/api/eureka/apply';
 	var method = 'POST';
-	var form_data = new FormData(); 
-	if($('#theme').val() == 0) {
+	var form_data = new FormData();
+	if ($('#theme').val() == 0) {
 		alert('Please choose a theme');
 		return;
 	}
@@ -19,24 +19,29 @@ function register() {
 	form_data.append('email', $('#email').val());
 	form_data.append('theme', $('#theme').val());
 	form_data.append('abstract', $('#abstract').val());
-	
+
 	var request = $.ajax({
-		url: API_BASE_URL+route,
+		url: API_BASE_URL + route,
 		method: method,
 		data: form_data,
+		dataType: 'json',
 		processData: false,
-		contentType: false,
+		contentType: false
 	});
-	request.done(function(data){
-		data = JSON.parse(data);
-		if(data.status_code == 200) {
-			$('form').hide();
-			alert("Sucessfully registered.");
-			location.href = API_BASE_URL + '/eureka';
-		} else if(data.status_code==400) {
+	request.done(function(data) {
+		console.log(data);
+		if (data.status_code == 200) {
+			$('#form-contents').hide();
+			$('#message').html('Sucessfully registered.');
+			$('#error').show();
+		} else if (data.status_code == 400) {
 			alert('Please enter all (*) marked fields.');
 		} else {
 			alert('Unknown Error. Contact  WebOps');
 		}
 	});
+}
+
+function redirect() {
+	location.href = API_BASE_URL + '/eureka';
 }

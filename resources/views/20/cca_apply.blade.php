@@ -3,7 +3,7 @@
   var API_BASE_URL = "{{ env('APP_BASE_URL') }}";
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="{{asset('https://currents.nitt.edu/js/cca_script.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/cca_script.js')}}"></script>
 <style>
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
 
@@ -26,7 +26,7 @@ body {
   font-size: 12px;
   line-height:30px;
   color:#777;
-  background:#0CF;
+  background:#191919;
 }
 
 .container {
@@ -39,7 +39,7 @@ body {
 form input[type="text"], form input[type="email"], form input[type="tel"], form input[type="url"], form input[type="number"], form textarea, form button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
 
 form {
-  background:#F9F9F9;
+  background:#4c4c4c;
   padding:25px;
   margin:50px 0;
 }
@@ -122,10 +122,16 @@ form input:focus, form textarea:focus {
 :-ms-input-placeholder {
  color:#888;
 }
-
+#message{
+  font-size: 1.5em; 
+  color: white;
+  margin-bottom: 20px;
+}
+#error{
+  display: none;
+}
 </style>
 <div class="container">
-
   <form id="contact" onsubmit="register(); return false;" action="" method="post">
     <h3>Currents Campus Ambassador</h3>
     <div>&nbsp;</div>
@@ -161,7 +167,7 @@ form input:focus, form textarea:focus {
       <input placeholder="Phone Number (Permanent)" id="perma_phone" type="tel" tabindex="3" required>
     </fieldset>
     <fieldset>
-      <input placeholder="Current Address" id="curr_addr" type="text" tabindex="3" required>
+       <input placeholder="Current Address" id="curr_addr" type="text" tabindex="3" required>
     </fieldset>
     <fieldset>
       <input placeholder="Permanent Address" id="perm_addr" type="text" tabindex="3" required>
@@ -170,10 +176,9 @@ form input:focus, form textarea:focus {
       <button name="submit" type="submit" onclick="register(); return false;" id="contact-submit" data-submit="...Sending">Submit</button>
     </fieldset>
   </div>
-      <fieldset>
-      <div id="error" style="font-size: 1.5em; display: hidden;"></div>
-   </fieldset>
-
+      <fieldset id="error">
+        <div id="message"></div>
+          <button id="accept" type="submit" onclick="redirect(); return false;" id="contact-submit" data-submit="...Sending">Okay</button>
+      </fieldset>
   </form>
-
 </div>
